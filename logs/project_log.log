@@ -1,6 +1,6 @@
-2025-09-12 21:20:27 | INFO | {'message': 'I just saw a movie! It was weird.', 'author': 'Eve'}
-2025-09-12 21:20:27 | INFO | Processed JSON message: {'message': 'I just saw a movie! It was weird.', 'author': 'Eve'}
-2025-09-12 21:20:27 | INFO | Message received from author: Eve
-2025-09-12 21:20:27 | INFO | Updated author counts: {'Charlie': 482, 'Alice': 501, 'Eve': 509, 'Bob': 443}
-2025-09-12 21:20:27 | INFO | Chart updated successfully for message: {"message": "I just saw a movie! It was weird.", "author": "Eve"}
+2025-09-12 21:39:04 | INFO | {'message': 'I just shared a story! It was funny.', 'author': 'Charlie'}
+2025-09-12 21:39:05 | INFO | Processed JSON message: {'message': 'I just shared a story! It was funny.', 'author': 'Charlie'}
+2025-09-12 21:39:05 | INFO | Message received from author: Charlie
+2025-09-12 21:39:05 | INFO | Updated author counts: {'Charlie': 576, 'Alice': 596, 'Eve': 600, 'Bob': 535}
+2025-09-12 21:39:05 | INFO | Chart updated successfully for message: {"message": "I just shared a story! It was funny.", "author": "Charlie"}
 
