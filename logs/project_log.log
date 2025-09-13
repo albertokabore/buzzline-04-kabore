@@ -1,0 +1,6 @@
+2025-09-12 21:20:27 | INFO | {'message': 'I just saw a movie! It was weird.', 'author': 'Eve'}
+2025-09-12 21:20:27 | INFO | Processed JSON message: {'message': 'I just saw a movie! It was weird.', 'author': 'Eve'}
+2025-09-12 21:20:27 | INFO | Message received from author: Eve
+2025-09-12 21:20:27 | INFO | Updated author counts: {'Charlie': 482, 'Alice': 501, 'Eve': 509, 'Bob': 443}
+2025-09-12 21:20:27 | INFO | Chart updated successfully for message: {"message": "I just saw a movie! It was weird.", "author": "Eve"}
+
