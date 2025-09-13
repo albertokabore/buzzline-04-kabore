@@ -10,7 +10,7 @@ Example JSON message after deserialization
 {"message": "I love Python!", "author": "Eve"}
 """
 
-# Imports
+# ---------- Imports ----------
 import os
 import json
 from collections import defaultdict
@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 from utils.utils_consumer import create_kafka_consumer
 from utils.utils_logger import logger
 
-# Env
+# ---------- Env ----------
 load_dotenv()
 
 def get_kafka_topic() -> str:
@@ -34,21 +34,22 @@ def get_kafka_consumer_group_id() -> str:
     logger.info(f"Kafka consumer group id: {group_id}")
     return group_id
 
-# Stream state
+# ---------- Stream state ----------
 author_counts = defaultdict(int)
 
-# Live figure
+# ---------- Live figure ----------
 fig, ax = plt.subplots()
 plt.ion()
 
-bars = None                # BarContainer to update in place
-author_order: list[str] = []  # stable order of authors
+# keep artists + stable order so we can update in place
+bars = None                  # BarContainer
+author_order: list[str] = [] # stable author order
 
 def update_chart():
-    """Update the live bar chart of author counts."""
+    """Update the live bar chart of author counts without clearing the axes."""
     global bars, author_order
 
-    # keep a stable order and append new authors when they appear
+    # append any newly-seen authors to maintain a stable order
     for a in author_counts.keys():
         if a not in author_order:
             author_order.append(a)
@@ -56,11 +57,12 @@ def update_chart():
     counts_list = [author_counts[a] for a in author_order]
     x = list(range(len(author_order)))
 
-    # first draw or author set changed
     if bars is None or len(bars) != len(author_order):
+        # first draw or author set changed
         ax.clear()
         bars = ax.bar(x, counts_list, color="skyblue")
 
+        # set matching ticks/labels (prevents set_xticklabels warning)
         ax.set_xticks(x)
         ax.set_xticklabels(author_order, rotation=45, ha="right")
 
@@ -84,6 +86,7 @@ def process_message(message) -> None:
     Accepts bytes or str.
     """
     try:
+        # Kafka may provide bytes; normalize to str
         if isinstance(message, bytes):
             message = message.decode("utf-8")
 
@@ -109,10 +112,7 @@ def process_message(message) -> None:
         logger.error(f"Error processing message: {e}")
 
 def main() -> None:
-    """
-    Read topic and group id from env,
-    create consumer, poll messages, update chart.
-    """
+    """Read topic & group from env, create consumer, poll messages, update chart."""
     logger.info("START consumer.")
 
     topic = get_kafka_topic()
@@ -124,7 +124,7 @@ def main() -> None:
     logger.info(f"Polling messages from topic '{topic}'")
     try:
         for record in consumer:
-            message_value = record.value
+            message_value = record.value  # bytes or str
             logger.debug(f"Offset {record.offset}: {message_value!r}")
             process_message(message_value)
     except KeyboardInterrupt:
