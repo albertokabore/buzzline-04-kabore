@@ -1,5 +1,2 @@
-2025-09-13 17:40:56 | INFO | Processed JSON message: {'message': 'I just loved a movie! It was amazing.', 'author': 'Bob'}
-2025-09-13 17:40:56 | INFO | Message received from author: Bob
-2025-09-13 17:40:56 | INFO | Updated author counts: {'Charlie': 323, 'Eve': 320, 'Bob': 320, 'Alice': 326}
-2025-09-13 17:40:56 | INFO | Chart updated successfully.
-2025-09-13 17:40:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana'}
+2025-09-13 17:44:00 | INFO | Chart updated successfully.
+2025-09-13 17:44:00 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:44:00.476386', 'temperature': 102.4}

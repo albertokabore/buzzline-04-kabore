@@ -1,0 +1,489 @@
+2025-09-13 17:40:56 | INFO | Processed JSON message: {'message': 'I just loved a movie! It was amazing.', 'author': 'Bob'}
+2025-09-13 17:40:56 | INFO | Message received from author: Bob
+2025-09-13 17:40:56 | INFO | Updated author counts: {'Charlie': 323, 'Eve': 320, 'Bob': 320, 'Alice': 326}
+2025-09-13 17:40:56 | INFO | Chart updated successfully.
+2025-09-13 17:40:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana'}
+2025-09-13 17:40:59 | INFO | {'message': 'I just found an app! It was exciting.', 'author': 'Alice'}
+2025-09-13 17:40:59 | INFO | Processed JSON message: {'message': 'I just found an app! It was exciting.', 'author': 'Alice'}
+2025-09-13 17:40:59 | INFO | Message received from author: Alice
+2025-09-13 17:40:59 | INFO | Updated author counts: {'Charlie': 323, 'Eve': 320, 'Bob': 320, 'Alice': 327}
+2025-09-13 17:40:59 | INFO | Chart updated successfully.
+2025-09-13 17:41:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-13 17:41:00 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:41:00.349070', 'temperature': 88.0}
+2025-09-13 17:41:02 | INFO | {'message': 'I just shared an app! It was amazing.', 'author': 'Eve'}
+2025-09-13 17:41:02 | INFO | Processed JSON message: {'message': 'I just shared an app! It was amazing.', 'author': 'Eve'}
+2025-09-13 17:41:02 | INFO | Message received from author: Eve
+2025-09-13 17:41:02 | INFO | Updated author counts: {'Charlie': 323, 'Eve': 321, 'Bob': 320, 'Alice': 327}
+2025-09-13 17:41:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-13 17:41:03 | INFO | Chart updated successfully.
+2025-09-13 17:41:05 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:41:05.353549', 'temperature': 88.4}
+2025-09-13 17:41:05 | INFO | {'message': 'I just found a story! It was funny.', 'author': 'Alice'}
+2025-09-13 17:41:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Alice'}
+2025-09-13 17:41:06 | INFO | Processed JSON message: {'message': 'I just found a story! It was funny.', 'author': 'Alice'}
+2025-09-13 17:41:06 | INFO | Message received from author: Alice
+2025-09-13 17:41:06 | INFO | Updated author counts: {'Charlie': 323, 'Eve': 321, 'Bob': 320, 'Alice': 328}
+2025-09-13 17:41:06 | INFO | Chart updated successfully.
+2025-09-13 17:41:08 | INFO | {'message': 'I just saw a trick! It was weird.', 'author': 'Bob'}
+2025-09-13 17:41:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-09-13 17:41:09 | INFO | Processed JSON message: {'message': 'I just saw a trick! It was weird.', 'author': 'Bob'}
+2025-09-13 17:41:09 | INFO | Message received from author: Bob
+2025-09-13 17:41:09 | INFO | Updated author counts: {'Charlie': 323, 'Eve': 321, 'Bob': 321, 'Alice': 328}
+2025-09-13 17:41:09 | INFO | Chart updated successfully.
+2025-09-13 17:41:10 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:41:10.356126', 'temperature': 88.8}
+2025-09-13 17:41:11 | INFO | {'message': 'I just loved a trick! It was funny.', 'author': 'Alice'}
+2025-09-13 17:41:11 | INFO | Processed JSON message: {'message': 'I just loved a trick! It was funny.', 'author': 'Alice'}
+2025-09-13 17:41:11 | INFO | Message received from author: Alice
+2025-09-13 17:41:11 | INFO | Updated author counts: {'Charlie': 323, 'Eve': 321, 'Bob': 321, 'Alice': 329}
+2025-09-13 17:41:11 | INFO | Chart updated successfully.
+2025-09-13 17:41:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-09-13 17:41:14 | INFO | {'message': 'I just found an app! It was exciting.', 'author': 'Alice'}
+2025-09-13 17:41:14 | INFO | Processed JSON message: {'message': 'I just found an app! It was exciting.', 'author': 'Alice'}
+2025-09-13 17:41:14 | INFO | Message received from author: Alice
+2025-09-13 17:41:14 | INFO | Updated author counts: {'Charlie': 323, 'Eve': 321, 'Bob': 321, 'Alice': 330}
+2025-09-13 17:41:14 | INFO | Chart updated successfully.
+2025-09-13 17:41:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
+2025-09-13 17:41:15 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:41:15.358765', 'temperature': 89.2}
+2025-09-13 17:41:17 | INFO | {'message': 'I just tried a trick! It was exciting.', 'author': 'Charlie'}
+2025-09-13 17:41:17 | INFO | Processed JSON message: {'message': 'I just tried a trick! It was exciting.', 'author': 'Charlie'}
+2025-09-13 17:41:17 | INFO | Message received from author: Charlie
+2025-09-13 17:41:17 | INFO | Updated author counts: {'Charlie': 324, 'Eve': 321, 'Bob': 321, 'Alice': 330}
+2025-09-13 17:41:17 | INFO | Chart updated successfully.
+2025-09-13 17:41:18 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-13 17:41:20 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:41:20.362307', 'temperature': 89.6}
+2025-09-13 17:41:20 | INFO | {'message': 'I just tried a meme! It was boring.', 'author': 'Bob'}
+2025-09-13 17:41:20 | INFO | Processed JSON message: {'message': 'I just tried a meme! It was boring.', 'author': 'Bob'}
+2025-09-13 17:41:20 | INFO | Message received from author: Bob
+2025-09-13 17:41:20 | INFO | Updated author counts: {'Charlie': 324, 'Eve': 321, 'Bob': 322, 'Alice': 330}
+2025-09-13 17:41:21 | INFO | Chart updated successfully.
+2025-09-13 17:41:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-13 17:41:23 | INFO | {'message': 'I just found a movie! It was exciting.', 'author': 'Bob'}
+2025-09-13 17:41:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Alice'}
+2025-09-13 17:41:24 | INFO | Processed JSON message: {'message': 'I just found a movie! It was exciting.', 'author': 'Bob'}
+2025-09-13 17:41:24 | INFO | Message received from author: Bob
+2025-09-13 17:41:24 | INFO | Updated author counts: {'Charlie': 324, 'Eve': 321, 'Bob': 323, 'Alice': 330}
+2025-09-13 17:41:24 | INFO | Chart updated successfully.
+2025-09-13 17:41:25 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:41:25.364039', 'temperature': 90.0}
+2025-09-13 17:41:26 | INFO | {'message': 'I just found a meme! It was boring.', 'author': 'Alice'}
+2025-09-13 17:41:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Charlie'}
+2025-09-13 17:41:27 | INFO | Processed JSON message: {'message': 'I just found a meme! It was boring.', 'author': 'Alice'}
+2025-09-13 17:41:27 | INFO | Message received from author: Alice
+2025-09-13 17:41:27 | INFO | Updated author counts: {'Charlie': 324, 'Eve': 321, 'Bob': 323, 'Alice': 331}
+2025-09-13 17:41:27 | INFO | Chart updated successfully.
+2025-09-13 17:41:28 | INFO | Logging to file: logs/project_log.log
+2025-09-13 17:41:28 | INFO | Log sanitization enabled, personal info removed
+2025-09-13 17:41:28 | INFO | START consumer
+2025-09-13 17:41:28 | INFO | Kafka topic: smoker_csv
+2025-09-13 17:41:28 | INFO | Kafka consumer group id: smoker_group
+2025-09-13 17:41:28 | INFO | Rolling window size: 10
+2025-09-13 17:41:29 | INFO | Kafka broker address: localhost:9092
+2025-09-13 17:41:29 | INFO | Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-09-13 17:41:29 | INFO | Kafka consumer created successfully.
+2025-09-13 17:41:29 | INFO | Polling messages from topic 'smoker_csv'
+2025-09-13 17:41:29 | INFO | {'message': 'I just loved a meme! It was exciting.', 'author': 'Charlie'}
+2025-09-13 17:41:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-13 17:41:30 | INFO | Processed JSON message: {'message': 'I just loved a meme! It was exciting.', 'author': 'Charlie'}
+2025-09-13 17:41:30 | INFO | Message received from author: Charlie
+2025-09-13 17:41:30 | INFO | Updated author counts: {'Charlie': 325, 'Eve': 321, 'Bob': 323, 'Alice': 331}
+2025-09-13 17:41:30 | INFO | Chart updated successfully.
+2025-09-13 17:41:30 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:41:30.369162', 'temperature': 90.4}
+2025-09-13 17:41:32 | INFO | {'message': 'I just shared a story! It was funny.', 'author': 'Charlie'}
+2025-09-13 17:41:32 | INFO | Processed JSON message: {'message': 'I just shared a story! It was funny.', 'author': 'Charlie'}
+2025-09-13 17:41:32 | INFO | Message received from author: Charlie
+2025-09-13 17:41:32 | INFO | Updated author counts: {'Charlie': 326, 'Eve': 321, 'Bob': 323, 'Alice': 331}
+2025-09-13 17:41:32 | INFO | Chart updated successfully.
+2025-09-13 17:41:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-09-13 17:41:33 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:37:25.157977', 'temperature': 70.8}
+2025-09-13 17:41:33 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:37:30.164042', 'temperature': 71.2}
+2025-09-13 17:41:33 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:37:35.166889', 'temperature': 71.6}
+2025-09-13 17:41:33 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:37:40.171121', 'temperature': 72.0}
+2025-09-13 17:41:33 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:37:45.175993', 'temperature': 72.4}
+2025-09-13 17:41:33 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:37:50.183016', 'temperature': 72.8}
+2025-09-13 17:41:33 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:37:55.187401', 'temperature': 73.2}
+2025-09-13 17:41:33 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:38:00.193717', 'temperature': 73.6}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:38:05.195724', 'temperature': 74.0}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:38:10.203188', 'temperature': 74.4}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:38:15.210080', 'temperature': 74.8}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:38:20.213690', 'temperature': 75.2}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:38:25.215776', 'temperature': 75.6}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:38:30.219780', 'temperature': 76.0}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:38:35.222027', 'temperature': 76.4}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:38:40.225007', 'temperature': 76.8}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:38:45.231416', 'temperature': 77.2}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:38:50.233858', 'temperature': 77.6}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:38:55.239835', 'temperature': 78.0}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:39:00.244129', 'temperature': 78.4}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:39:05.246251', 'temperature': 78.8}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:39:10.248403', 'temperature': 79.2}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:39:15.251995', 'temperature': 79.6}
+2025-09-13 17:41:34 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:39:20.257866', 'temperature': 80.0}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:39:25.259517', 'temperature': 80.4}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:39:30.262195', 'temperature': 80.8}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:39:35.264334', 'temperature': 81.2}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:39:40.266376', 'temperature': 81.6}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:39:45.269945', 'temperature': 82.0}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:39:50.273033', 'temperature': 82.4}
+2025-09-13 17:41:35 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:41:35.372427', 'temperature': 90.8}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:39:55.277577', 'temperature': 82.8}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:40:00.283584', 'temperature': 83.2}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:40:05.287359', 'temperature': 83.6}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:40:10.289111', 'temperature': 84.0}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:40:15.293461', 'temperature': 84.4}
+2025-09-13 17:41:35 | INFO | {'message': 'I just found a movie! It was exciting.', 'author': 'Bob'}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:40:20.295773', 'temperature': 84.8}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:40:25.297592', 'temperature': 85.2}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'message': 'I just found a movie! It was exciting.', 'author': 'Bob'}
+2025-09-13 17:41:35 | INFO | Message received from author: Bob
+2025-09-13 17:41:35 | INFO | Updated author counts: {'Charlie': 326, 'Eve': 321, 'Bob': 324, 'Alice': 331}
+2025-09-13 17:41:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:40:30.301904', 'temperature': 85.6}
+2025-09-13 17:41:35 | INFO | Chart updated successfully.
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:40:35.304404', 'temperature': 86.0}
+2025-09-13 17:41:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:40:40.307931', 'temperature': 86.4}
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:40:45.316069', 'temperature': 86.8}
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:40:50.321215', 'temperature': 87.2}
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:40:55.326775', 'temperature': 87.6}
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:41:00.349070', 'temperature': 88.0}
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:41:05.353549', 'temperature': 88.4}
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:41:10.356126', 'temperature': 88.8}
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:41:15.358765', 'temperature': 89.2}
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:41:20.362307', 'temperature': 89.6}
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:41:25.364039', 'temperature': 90.0}
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:41:30.369162', 'temperature': 90.4}
+2025-09-13 17:41:36 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:41:35.372427', 'temperature': 90.8}
+2025-09-13 17:41:38 | INFO | {'message': 'I just saw a trick! It was boring.', 'author': 'Bob'}
+2025-09-13 17:41:38 | INFO | Processed JSON message: {'message': 'I just saw a trick! It was boring.', 'author': 'Bob'}
+2025-09-13 17:41:38 | INFO | Message received from author: Bob
+2025-09-13 17:41:38 | INFO | Updated author counts: {'Charlie': 326, 'Eve': 321, 'Bob': 325, 'Alice': 331}
+2025-09-13 17:41:39 | INFO | Chart updated successfully.
+2025-09-13 17:41:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-09-13 17:41:40 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:41:40.377782', 'temperature': 91.2}
+2025-09-13 17:41:40 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:41:40.377782', 'temperature': 91.2}
+2025-09-13 17:41:41 | INFO | {'message': 'I just found a trick! It was amazing.', 'author': 'Eve'}
+2025-09-13 17:41:42 | INFO | Processed JSON message: {'message': 'I just found a trick! It was amazing.', 'author': 'Eve'}
+2025-09-13 17:41:42 | INFO | Message received from author: Eve
+2025-09-13 17:41:42 | INFO | Updated author counts: {'Charlie': 326, 'Eve': 322, 'Bob': 325, 'Alice': 331}
+2025-09-13 17:41:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Bob'}
+2025-09-13 17:41:42 | INFO | Chart updated successfully.
+2025-09-13 17:41:44 | INFO | {'message': 'I just found a movie! It was weird.', 'author': 'Eve'}
+2025-09-13 17:41:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-13 17:41:45 | INFO | Processed JSON message: {'message': 'I just found a movie! It was weird.', 'author': 'Eve'}
+2025-09-13 17:41:45 | INFO | Message received from author: Eve
+2025-09-13 17:41:45 | INFO | Updated author counts: {'Charlie': 326, 'Eve': 323, 'Bob': 325, 'Alice': 331}
+2025-09-13 17:41:45 | INFO | Chart updated successfully.
+2025-09-13 17:41:45 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:41:45.381097', 'temperature': 91.6}
+2025-09-13 17:41:45 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:41:45.381097', 'temperature': 91.6}
+2025-09-13 17:41:47 | INFO | {'message': 'I just loved a meme! It was amazing.', 'author': 'Charlie'}
+2025-09-13 17:41:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob'}
+2025-09-13 17:41:48 | INFO | Processed JSON message: {'message': 'I just loved a meme! It was amazing.', 'author': 'Charlie'}
+2025-09-13 17:41:48 | INFO | Message received from author: Charlie
+2025-09-13 17:41:48 | INFO | Updated author counts: {'Charlie': 327, 'Eve': 323, 'Bob': 325, 'Alice': 331}
+2025-09-13 17:41:48 | INFO | Chart updated successfully.
+2025-09-13 17:41:50 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:41:50.387332', 'temperature': 92.0}
+2025-09-13 17:41:50 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:41:50.387332', 'temperature': 92.0}
+2025-09-13 17:41:50 | INFO | {'message': 'I just tried an app! It was funny.', 'author': 'Charlie'}
+2025-09-13 17:41:50 | INFO | Processed JSON message: {'message': 'I just tried an app! It was funny.', 'author': 'Charlie'}
+2025-09-13 17:41:50 | INFO | Message received from author: Charlie
+2025-09-13 17:41:50 | INFO | Updated author counts: {'Charlie': 328, 'Eve': 323, 'Bob': 325, 'Alice': 331}
+2025-09-13 17:41:50 | INFO | Chart updated successfully.
+2025-09-13 17:41:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-13 17:41:53 | INFO | {'message': 'I just saw a meme! It was boring.', 'author': 'Bob'}
+2025-09-13 17:41:53 | INFO | Processed JSON message: {'message': 'I just saw a meme! It was boring.', 'author': 'Bob'}
+2025-09-13 17:41:53 | INFO | Message received from author: Bob
+2025-09-13 17:41:53 | INFO | Updated author counts: {'Charlie': 328, 'Eve': 323, 'Bob': 326, 'Alice': 331}
+2025-09-13 17:41:53 | INFO | Chart updated successfully.
+2025-09-13 17:41:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob'}
+2025-09-13 17:41:55 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:41:55.390908', 'temperature': 92.4}
+2025-09-13 17:41:55 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:41:55.390908', 'temperature': 92.4}
+2025-09-13 17:41:56 | INFO | {'message': 'I just shared a movie! It was funny.', 'author': 'Alice'}
+2025-09-13 17:41:56 | INFO | Processed JSON message: {'message': 'I just shared a movie! It was funny.', 'author': 'Alice'}
+2025-09-13 17:41:56 | INFO | Message received from author: Alice
+2025-09-13 17:41:56 | INFO | Updated author counts: {'Charlie': 328, 'Eve': 323, 'Bob': 326, 'Alice': 332}
+2025-09-13 17:41:56 | INFO | Chart updated successfully.
+2025-09-13 17:41:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-13 17:41:59 | INFO | {'message': 'I just saw a meme! It was weird.', 'author': 'Eve'}
+2025-09-13 17:41:59 | INFO | Processed JSON message: {'message': 'I just saw a meme! It was weird.', 'author': 'Eve'}
+2025-09-13 17:41:59 | INFO | Message received from author: Eve
+2025-09-13 17:41:59 | INFO | Updated author counts: {'Charlie': 328, 'Eve': 324, 'Bob': 326, 'Alice': 332}
+2025-09-13 17:42:00 | INFO | Chart updated successfully.
+2025-09-13 17:42:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-09-13 17:42:00 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:42:00.393196', 'temperature': 92.8}
+2025-09-13 17:42:00 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:42:00.393196', 'temperature': 92.8}
+2025-09-13 17:42:02 | INFO | {'message': 'I just tried a movie! It was funny.', 'author': 'Alice'}
+2025-09-13 17:42:03 | INFO | Processed JSON message: {'message': 'I just tried a movie! It was funny.', 'author': 'Alice'}
+2025-09-13 17:42:03 | INFO | Message received from author: Alice
+2025-09-13 17:42:03 | INFO | Updated author counts: {'Charlie': 328, 'Eve': 324, 'Bob': 326, 'Alice': 333}
+2025-09-13 17:42:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-13 17:42:03 | INFO | Chart updated successfully.
+2025-09-13 17:42:05 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:42:05.398035', 'temperature': 93.2}
+2025-09-13 17:42:05 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:42:05.398035', 'temperature': 93.2}
+2025-09-13 17:42:05 | INFO | {'message': 'I just shared a trick! It was boring.', 'author': 'Alice'}
+2025-09-13 17:42:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-09-13 17:42:06 | INFO | Processed JSON message: {'message': 'I just shared a trick! It was boring.', 'author': 'Alice'}
+2025-09-13 17:42:06 | INFO | Message received from author: Alice
+2025-09-13 17:42:06 | INFO | Updated author counts: {'Charlie': 328, 'Eve': 324, 'Bob': 326, 'Alice': 334}
+2025-09-13 17:42:06 | INFO | Chart updated successfully.
+2025-09-13 17:42:08 | INFO | {'message': 'I just saw a meme! It was funny.', 'author': 'Bob'}
+2025-09-13 17:42:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-13 17:42:09 | INFO | Processed JSON message: {'message': 'I just saw a meme! It was funny.', 'author': 'Bob'}
+2025-09-13 17:42:09 | INFO | Message received from author: Bob
+2025-09-13 17:42:09 | INFO | Updated author counts: {'Charlie': 328, 'Eve': 324, 'Bob': 327, 'Alice': 334}
+2025-09-13 17:42:09 | INFO | Chart updated successfully.
+2025-09-13 17:42:10 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:42:10.400695', 'temperature': 93.6}
+2025-09-13 17:42:10 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:42:10.400695', 'temperature': 93.6}
+2025-09-13 17:42:11 | INFO | {'message': 'I just saw a movie! It was boring.', 'author': 'Alice'}
+2025-09-13 17:42:11 | INFO | Processed JSON message: {'message': 'I just saw a movie! It was boring.', 'author': 'Alice'}
+2025-09-13 17:42:11 | INFO | Message received from author: Alice
+2025-09-13 17:42:11 | INFO | Updated author counts: {'Charlie': 328, 'Eve': 324, 'Bob': 327, 'Alice': 335}
+2025-09-13 17:42:11 | INFO | Chart updated successfully.
+2025-09-13 17:42:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-13 17:42:14 | INFO | {'message': 'I just found a movie! It was boring.', 'author': 'Charlie'}
+2025-09-13 17:42:14 | INFO | Processed JSON message: {'message': 'I just found a movie! It was boring.', 'author': 'Charlie'}
+2025-09-13 17:42:14 | INFO | Message received from author: Charlie
+2025-09-13 17:42:14 | INFO | Updated author counts: {'Charlie': 329, 'Eve': 324, 'Bob': 327, 'Alice': 335}
+2025-09-13 17:42:14 | INFO | Chart updated successfully.
+2025-09-13 17:42:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Bob'}
+2025-09-13 17:42:15 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:42:15.402953', 'temperature': 94.0}
+2025-09-13 17:42:15 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:42:15.402953', 'temperature': 94.0}
+2025-09-13 17:42:17 | INFO | {'message': 'I just tried an app! It was boring.', 'author': 'Eve'}
+2025-09-13 17:42:17 | INFO | Processed JSON message: {'message': 'I just tried an app! It was boring.', 'author': 'Eve'}
+2025-09-13 17:42:17 | INFO | Message received from author: Eve
+2025-09-13 17:42:17 | INFO | Updated author counts: {'Charlie': 329, 'Eve': 325, 'Bob': 327, 'Alice': 335}
+2025-09-13 17:42:17 | INFO | Chart updated successfully.
+2025-09-13 17:42:18 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-13 17:42:20 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:42:20.405467', 'temperature': 94.4}
+2025-09-13 17:42:20 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:42:20.405467', 'temperature': 94.4}
+2025-09-13 17:42:20 | INFO | {'message': 'I just saw a story! It was weird.', 'author': 'Bob'}
+2025-09-13 17:42:20 | INFO | Processed JSON message: {'message': 'I just saw a story! It was weird.', 'author': 'Bob'}
+2025-09-13 17:42:20 | INFO | Message received from author: Bob
+2025-09-13 17:42:20 | INFO | Updated author counts: {'Charlie': 329, 'Eve': 325, 'Bob': 328, 'Alice': 335}
+2025-09-13 17:42:21 | INFO | Chart updated successfully.
+2025-09-13 17:42:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-13 17:42:23 | INFO | {'message': 'I just shared an app! It was weird.', 'author': 'Charlie'}
+2025-09-13 17:42:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-13 17:42:24 | INFO | Processed JSON message: {'message': 'I just shared an app! It was weird.', 'author': 'Charlie'}
+2025-09-13 17:42:24 | INFO | Message received from author: Charlie
+2025-09-13 17:42:24 | INFO | Updated author counts: {'Charlie': 330, 'Eve': 325, 'Bob': 328, 'Alice': 335}
+2025-09-13 17:42:24 | INFO | Chart updated successfully.
+2025-09-13 17:42:25 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:42:25.413755', 'temperature': 94.8}
+2025-09-13 17:42:25 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:42:25.413755', 'temperature': 94.8}
+2025-09-13 17:42:26 | INFO | {'message': 'I just shared a story! It was exciting.', 'author': 'Bob'}
+2025-09-13 17:42:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-13 17:42:27 | INFO | Processed JSON message: {'message': 'I just shared a story! It was exciting.', 'author': 'Bob'}
+2025-09-13 17:42:27 | INFO | Message received from author: Bob
+2025-09-13 17:42:27 | INFO | Updated author counts: {'Charlie': 330, 'Eve': 325, 'Bob': 329, 'Alice': 335}
+2025-09-13 17:42:27 | INFO | Chart updated successfully.
+2025-09-13 17:42:29 | INFO | {'message': 'I just found a meme! It was exciting.', 'author': 'Bob'}
+2025-09-13 17:42:29 | INFO | Processed JSON message: {'message': 'I just found a meme! It was exciting.', 'author': 'Bob'}
+2025-09-13 17:42:29 | INFO | Message received from author: Bob
+2025-09-13 17:42:29 | INFO | Updated author counts: {'Charlie': 330, 'Eve': 325, 'Bob': 330, 'Alice': 335}
+2025-09-13 17:42:29 | INFO | Chart updated successfully.
+2025-09-13 17:42:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Diana'}
+2025-09-13 17:42:30 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:42:30.415912', 'temperature': 95.2}
+2025-09-13 17:42:30 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:42:30.415912', 'temperature': 95.2}
+2025-09-13 17:42:32 | INFO | {'message': 'I just shared a trick! It was exciting.', 'author': 'Charlie'}
+2025-09-13 17:42:32 | INFO | Processed JSON message: {'message': 'I just shared a trick! It was exciting.', 'author': 'Charlie'}
+2025-09-13 17:42:32 | INFO | Message received from author: Charlie
+2025-09-13 17:42:32 | INFO | Updated author counts: {'Charlie': 331, 'Eve': 325, 'Bob': 330, 'Alice': 335}
+2025-09-13 17:42:32 | INFO | Chart updated successfully.
+2025-09-13 17:42:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Bob'}
+2025-09-13 17:42:35 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:42:35.419803', 'temperature': 95.6}
+2025-09-13 17:42:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:42:35.419803', 'temperature': 95.6}
+2025-09-13 17:42:35 | INFO | {'message': 'I just found a story! It was weird.', 'author': 'Alice'}
+2025-09-13 17:42:35 | INFO | Processed JSON message: {'message': 'I just found a story! It was weird.', 'author': 'Alice'}
+2025-09-13 17:42:35 | INFO | Message received from author: Alice
+2025-09-13 17:42:35 | INFO | Updated author counts: {'Charlie': 331, 'Eve': 325, 'Bob': 330, 'Alice': 336}
+2025-09-13 17:42:35 | INFO | Chart updated successfully.
+2025-09-13 17:42:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-13 17:42:38 | INFO | {'message': 'I just saw a story! It was exciting.', 'author': 'Eve'}
+2025-09-13 17:42:38 | INFO | Processed JSON message: {'message': 'I just saw a story! It was exciting.', 'author': 'Eve'}
+2025-09-13 17:42:38 | INFO | Message received from author: Eve
+2025-09-13 17:42:38 | INFO | Updated author counts: {'Charlie': 331, 'Eve': 326, 'Bob': 330, 'Alice': 336}
+2025-09-13 17:42:39 | INFO | Chart updated successfully.
+2025-09-13 17:42:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-13 17:42:40 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:42:40.425877', 'temperature': 96.0}
+2025-09-13 17:42:40 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:42:40.425877', 'temperature': 96.0}
+2025-09-13 17:42:41 | INFO | {'message': 'I just tried a movie! It was funny.', 'author': 'Charlie'}
+2025-09-13 17:42:42 | INFO | Processed JSON message: {'message': 'I just tried a movie! It was funny.', 'author': 'Charlie'}
+2025-09-13 17:42:42 | INFO | Message received from author: Charlie
+2025-09-13 17:42:42 | INFO | Updated author counts: {'Charlie': 332, 'Eve': 326, 'Bob': 330, 'Alice': 336}
+2025-09-13 17:42:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Eve'}
+2025-09-13 17:42:42 | INFO | Chart updated successfully.
+2025-09-13 17:42:44 | INFO | {'message': 'I just loved a movie! It was boring.', 'author': 'Charlie'}
+2025-09-13 17:42:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-13 17:42:45 | INFO | Processed JSON message: {'message': 'I just loved a movie! It was boring.', 'author': 'Charlie'}
+2025-09-13 17:42:45 | INFO | Message received from author: Charlie
+2025-09-13 17:42:45 | INFO | Updated author counts: {'Charlie': 333, 'Eve': 326, 'Bob': 330, 'Alice': 336}
+2025-09-13 17:42:45 | INFO | Chart updated successfully.
+2025-09-13 17:42:45 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:42:45.428714', 'temperature': 96.4}
+2025-09-13 17:42:45 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:42:45.428714', 'temperature': 96.4}
+2025-09-13 17:42:47 | INFO | {'message': 'I just found a trick! It was boring.', 'author': 'Alice'}
+2025-09-13 17:42:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-09-13 17:42:48 | INFO | Processed JSON message: {'message': 'I just found a trick! It was boring.', 'author': 'Alice'}
+2025-09-13 17:42:48 | INFO | Message received from author: Alice
+2025-09-13 17:42:48 | INFO | Updated author counts: {'Charlie': 333, 'Eve': 326, 'Bob': 330, 'Alice': 337}
+2025-09-13 17:42:48 | INFO | Chart updated successfully.
+2025-09-13 17:42:50 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:42:50.432596', 'temperature': 96.8}
+2025-09-13 17:42:50 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:42:50.432596', 'temperature': 96.8}
+2025-09-13 17:42:50 | INFO | {'message': 'I just shared a trick! It was amazing.', 'author': 'Bob'}
+2025-09-13 17:42:50 | INFO | Processed JSON message: {'message': 'I just shared a trick! It was amazing.', 'author': 'Bob'}
+2025-09-13 17:42:50 | INFO | Message received from author: Bob
+2025-09-13 17:42:50 | INFO | Updated author counts: {'Charlie': 333, 'Eve': 326, 'Bob': 331, 'Alice': 337}
+2025-09-13 17:42:50 | INFO | Chart updated successfully.
+2025-09-13 17:42:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-13 17:42:53 | INFO | {'message': 'I just saw a story! It was funny.', 'author': 'Eve'}
+2025-09-13 17:42:53 | INFO | Processed JSON message: {'message': 'I just saw a story! It was funny.', 'author': 'Eve'}
+2025-09-13 17:42:53 | INFO | Message received from author: Eve
+2025-09-13 17:42:53 | INFO | Updated author counts: {'Charlie': 333, 'Eve': 327, 'Bob': 331, 'Alice': 337}
+2025-09-13 17:42:53 | INFO | Chart updated successfully.
+2025-09-13 17:42:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-13 17:42:55 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:42:55.435909', 'temperature': 97.2}
+2025-09-13 17:42:55 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:42:55.435909', 'temperature': 97.2}
+2025-09-13 17:42:56 | INFO | {'message': 'I just loved a movie! It was amazing.', 'author': 'Alice'}
+2025-09-13 17:42:56 | INFO | Processed JSON message: {'message': 'I just loved a movie! It was amazing.', 'author': 'Alice'}
+2025-09-13 17:42:56 | INFO | Message received from author: Alice
+2025-09-13 17:42:56 | INFO | Updated author counts: {'Charlie': 333, 'Eve': 327, 'Bob': 331, 'Alice': 338}
+2025-09-13 17:42:57 | INFO | Chart updated successfully.
+2025-09-13 17:42:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-09-13 17:42:59 | INFO | {'message': 'I just saw a story! It was amazing.', 'author': 'Alice'}
+2025-09-13 17:43:00 | INFO | Processed JSON message: {'message': 'I just saw a story! It was amazing.', 'author': 'Alice'}
+2025-09-13 17:43:00 | INFO | Message received from author: Alice
+2025-09-13 17:43:00 | INFO | Updated author counts: {'Charlie': 333, 'Eve': 327, 'Bob': 331, 'Alice': 339}
+2025-09-13 17:43:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Bob'}
+2025-09-13 17:43:00 | INFO | Chart updated successfully.
+2025-09-13 17:43:00 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:43:00.437492', 'temperature': 97.6}
+2025-09-13 17:43:00 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:43:00.437492', 'temperature': 97.6}
+2025-09-13 17:43:02 | INFO | {'message': 'I just tried a meme! It was exciting.', 'author': 'Eve'}
+2025-09-13 17:43:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-13 17:43:03 | INFO | Processed JSON message: {'message': 'I just tried a meme! It was exciting.', 'author': 'Eve'}
+2025-09-13 17:43:03 | INFO | Message received from author: Eve
+2025-09-13 17:43:03 | INFO | Updated author counts: {'Charlie': 333, 'Eve': 328, 'Bob': 331, 'Alice': 339}
+2025-09-13 17:43:03 | INFO | Chart updated successfully.
+2025-09-13 17:43:05 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:43:05.441028', 'temperature': 98.0}
+2025-09-13 17:43:05 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:43:05.441028', 'temperature': 98.0}
+2025-09-13 17:43:05 | INFO | {'message': 'I just loved a story! It was funny.', 'author': 'Alice'}
+2025-09-13 17:43:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-09-13 17:43:06 | INFO | Processed JSON message: {'message': 'I just loved a story! It was funny.', 'author': 'Alice'}
+2025-09-13 17:43:06 | INFO | Message received from author: Alice
+2025-09-13 17:43:06 | INFO | Updated author counts: {'Charlie': 333, 'Eve': 328, 'Bob': 331, 'Alice': 340}
+2025-09-13 17:43:06 | INFO | Chart updated successfully.
+2025-09-13 17:43:08 | INFO | {'message': 'I just loved an app! It was amazing.', 'author': 'Eve'}
+2025-09-13 17:43:08 | INFO | Processed JSON message: {'message': 'I just loved an app! It was amazing.', 'author': 'Eve'}
+2025-09-13 17:43:08 | INFO | Message received from author: Eve
+2025-09-13 17:43:08 | INFO | Updated author counts: {'Charlie': 333, 'Eve': 329, 'Bob': 331, 'Alice': 340}
+2025-09-13 17:43:08 | INFO | Chart updated successfully.
+2025-09-13 17:43:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-13 17:43:10 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:43:10.444810', 'temperature': 98.4}
+2025-09-13 17:43:10 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:43:10.444810', 'temperature': 98.4}
+2025-09-13 17:43:11 | INFO | {'message': 'I just found a story! It was boring.', 'author': 'Charlie'}
+2025-09-13 17:43:11 | INFO | Processed JSON message: {'message': 'I just found a story! It was boring.', 'author': 'Charlie'}
+2025-09-13 17:43:11 | INFO | Message received from author: Charlie
+2025-09-13 17:43:11 | INFO | Updated author counts: {'Charlie': 334, 'Eve': 329, 'Bob': 331, 'Alice': 340}
+2025-09-13 17:43:12 | INFO | Chart updated successfully.
+2025-09-13 17:43:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-13 17:43:14 | INFO | {'message': 'I just saw a story! It was funny.', 'author': 'Alice'}
+2025-09-13 17:43:15 | INFO | Processed JSON message: {'message': 'I just saw a story! It was funny.', 'author': 'Alice'}
+2025-09-13 17:43:15 | INFO | Message received from author: Alice
+2025-09-13 17:43:15 | INFO | Updated author counts: {'Charlie': 334, 'Eve': 329, 'Bob': 331, 'Alice': 341}
+2025-09-13 17:43:15 | INFO | Chart updated successfully.
+2025-09-13 17:43:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana'}
+2025-09-13 17:43:15 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:43:15.448198', 'temperature': 98.8}
+2025-09-13 17:43:15 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:43:15.448198', 'temperature': 98.8}
+2025-09-13 17:43:17 | INFO | {'message': 'I just saw a trick! It was boring.', 'author': 'Alice'}
+2025-09-13 17:43:18 | INFO | Processed JSON message: {'message': 'I just saw a trick! It was boring.', 'author': 'Alice'}
+2025-09-13 17:43:18 | INFO | Message received from author: Alice
+2025-09-13 17:43:18 | INFO | Updated author counts: {'Charlie': 334, 'Eve': 329, 'Bob': 331, 'Alice': 342}
+2025-09-13 17:43:18 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-13 17:43:18 | INFO | Chart updated successfully.
+2025-09-13 17:43:20 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:43:20.450774', 'temperature': 99.2}
+2025-09-13 17:43:20 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:43:20.450774', 'temperature': 99.2}
+2025-09-13 17:43:20 | INFO | {'message': 'I just found a meme! It was amazing.', 'author': 'Bob'}
+2025-09-13 17:43:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-09-13 17:43:21 | INFO | Processed JSON message: {'message': 'I just found a meme! It was amazing.', 'author': 'Bob'}
+2025-09-13 17:43:21 | INFO | Message received from author: Bob
+2025-09-13 17:43:21 | INFO | Updated author counts: {'Charlie': 334, 'Eve': 329, 'Bob': 332, 'Alice': 342}
+2025-09-13 17:43:21 | INFO | Chart updated successfully.
+2025-09-13 17:43:23 | INFO | {'message': 'I just loved a trick! It was weird.', 'author': 'Charlie'}
+2025-09-13 17:43:23 | INFO | Processed JSON message: {'message': 'I just loved a trick! It was weird.', 'author': 'Charlie'}
+2025-09-13 17:43:23 | INFO | Message received from author: Charlie
+2025-09-13 17:43:23 | INFO | Updated author counts: {'Charlie': 335, 'Eve': 329, 'Bob': 332, 'Alice': 342}
+2025-09-13 17:43:23 | INFO | Chart updated successfully.
+2025-09-13 17:43:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Eve'}
+2025-09-13 17:43:25 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:43:25.454595', 'temperature': 99.6}
+2025-09-13 17:43:25 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:43:25.454595', 'temperature': 99.6}
+2025-09-13 17:43:26 | INFO | {'message': 'I just loved an app! It was exciting.', 'author': 'Charlie'}
+2025-09-13 17:43:26 | INFO | Processed JSON message: {'message': 'I just loved an app! It was exciting.', 'author': 'Charlie'}
+2025-09-13 17:43:26 | INFO | Message received from author: Charlie
+2025-09-13 17:43:26 | INFO | Updated author counts: {'Charlie': 336, 'Eve': 329, 'Bob': 332, 'Alice': 342}
+2025-09-13 17:43:26 | INFO | Chart updated successfully.
+2025-09-13 17:43:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-13 17:43:29 | INFO | {'message': 'I just found a trick! It was funny.', 'author': 'Bob'}
+2025-09-13 17:43:29 | INFO | Processed JSON message: {'message': 'I just found a trick! It was funny.', 'author': 'Bob'}
+2025-09-13 17:43:29 | INFO | Message received from author: Bob
+2025-09-13 17:43:29 | INFO | Updated author counts: {'Charlie': 336, 'Eve': 329, 'Bob': 333, 'Alice': 342}
+2025-09-13 17:43:30 | INFO | Chart updated successfully.
+2025-09-13 17:43:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice'}
+2025-09-13 17:43:30 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:43:30.457815', 'temperature': 100.0}
+2025-09-13 17:43:30 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:43:30.457815', 'temperature': 100.0}
+2025-09-13 17:43:32 | INFO | {'message': 'I just found a trick! It was weird.', 'author': 'Bob'}
+2025-09-13 17:43:33 | INFO | Processed JSON message: {'message': 'I just found a trick! It was weird.', 'author': 'Bob'}
+2025-09-13 17:43:33 | INFO | Message received from author: Bob
+2025-09-13 17:43:33 | INFO | Updated author counts: {'Charlie': 336, 'Eve': 329, 'Bob': 334, 'Alice': 342}
+2025-09-13 17:43:33 | INFO | Chart updated successfully.
+2025-09-13 17:43:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-13 17:43:35 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:43:35.460183', 'temperature': 100.4}
+2025-09-13 17:43:35 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:43:35.460183', 'temperature': 100.4}
+2025-09-13 17:43:35 | INFO | {'message': 'I just saw a meme! It was weird.', 'author': 'Eve'}
+2025-09-13 17:43:36 | INFO | Processed JSON message: {'message': 'I just saw a meme! It was weird.', 'author': 'Eve'}
+2025-09-13 17:43:36 | INFO | Message received from author: Eve
+2025-09-13 17:43:36 | INFO | Updated author counts: {'Charlie': 336, 'Eve': 330, 'Bob': 334, 'Alice': 342}
+2025-09-13 17:43:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-13 17:43:36 | INFO | Chart updated successfully.
+2025-09-13 17:43:38 | INFO | {'message': 'I just shared a meme! It was exciting.', 'author': 'Alice'}
+2025-09-13 17:43:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-13 17:43:39 | INFO | Processed JSON message: {'message': 'I just shared a meme! It was exciting.', 'author': 'Alice'}
+2025-09-13 17:43:39 | INFO | Message received from author: Alice
+2025-09-13 17:43:39 | INFO | Updated author counts: {'Charlie': 336, 'Eve': 330, 'Bob': 334, 'Alice': 343}
+2025-09-13 17:43:39 | INFO | Chart updated successfully.
+2025-09-13 17:43:40 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:43:40.464444', 'temperature': 100.8}
+2025-09-13 17:43:40 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:43:40.464444', 'temperature': 100.8}
+2025-09-13 17:43:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-13 17:43:42 | INFO | {'message': 'I just found a movie! It was boring.', 'author': 'Alice'}
+2025-09-13 17:43:42 | INFO | Processed JSON message: {'message': 'I just found a movie! It was boring.', 'author': 'Alice'}
+2025-09-13 17:43:42 | INFO | Message received from author: Alice
+2025-09-13 17:43:42 | INFO | Updated author counts: {'Charlie': 336, 'Eve': 330, 'Bob': 334, 'Alice': 344}
+2025-09-13 17:43:42 | INFO | Chart updated successfully.
+2025-09-13 17:43:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-13 17:43:45 | INFO | {'message': 'I just found a meme! It was funny.', 'author': 'Charlie'}
+2025-09-13 17:43:45 | INFO | Processed JSON message: {'message': 'I just found a meme! It was funny.', 'author': 'Charlie'}
+2025-09-13 17:43:45 | INFO | Message received from author: Charlie
+2025-09-13 17:43:45 | INFO | Updated author counts: {'Charlie': 337, 'Eve': 330, 'Bob': 334, 'Alice': 344}
+2025-09-13 17:43:45 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:43:45.467958', 'temperature': 101.2}
+2025-09-13 17:43:45 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:43:45.467958', 'temperature': 101.2}
+2025-09-13 17:43:45 | INFO | Chart updated successfully.
+2025-09-13 17:43:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-09-13 17:43:48 | INFO | {'message': 'I just saw an app! It was boring.', 'author': 'Eve'}
+2025-09-13 17:43:48 | INFO | Processed JSON message: {'message': 'I just saw an app! It was boring.', 'author': 'Eve'}
+2025-09-13 17:43:48 | INFO | Message received from author: Eve
+2025-09-13 17:43:48 | INFO | Updated author counts: {'Charlie': 337, 'Eve': 331, 'Bob': 334, 'Alice': 344}
+2025-09-13 17:43:48 | INFO | Chart updated successfully.
+2025-09-13 17:43:50 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:43:50.469945', 'temperature': 101.6}
+2025-09-13 17:43:50 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:43:50.469945', 'temperature': 101.6}
+2025-09-13 17:43:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-09-13 17:43:51 | INFO | {'message': 'I just shared a trick! It was funny.', 'author': 'Bob'}
+2025-09-13 17:43:51 | INFO | Processed JSON message: {'message': 'I just shared a trick! It was funny.', 'author': 'Bob'}
+2025-09-13 17:43:51 | INFO | Message received from author: Bob
+2025-09-13 17:43:51 | INFO | Updated author counts: {'Charlie': 337, 'Eve': 331, 'Bob': 335, 'Alice': 344}
+2025-09-13 17:43:51 | INFO | Chart updated successfully.
+2025-09-13 17:43:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-13 17:43:54 | INFO | {'message': 'I just tried a trick! It was funny.', 'author': 'Charlie'}
+2025-09-13 17:43:54 | INFO | Processed JSON message: {'message': 'I just tried a trick! It was funny.', 'author': 'Charlie'}
+2025-09-13 17:43:54 | INFO | Message received from author: Charlie
+2025-09-13 17:43:54 | INFO | Updated author counts: {'Charlie': 338, 'Eve': 331, 'Bob': 335, 'Alice': 344}
+2025-09-13 17:43:54 | INFO | Chart updated successfully.
+2025-09-13 17:43:55 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:43:55.473095', 'temperature': 102.0}
+2025-09-13 17:43:55 | INFO | Processed JSON message: {'timestamp': '2025-09-13T21:43:55.473095', 'temperature': 102.0}
+2025-09-13 17:43:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
+2025-09-13 17:43:57 | INFO | {'message': 'I just tried a meme! It was amazing.', 'author': 'Eve'}
+2025-09-13 17:43:57 | INFO | Processed JSON message: {'message': 'I just tried a meme! It was amazing.', 'author': 'Eve'}
+2025-09-13 17:43:57 | INFO | Message received from author: Eve
+2025-09-13 17:43:57 | INFO | Chart updated successfully.
