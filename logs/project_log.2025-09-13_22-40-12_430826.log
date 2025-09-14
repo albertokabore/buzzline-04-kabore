@@ -1,0 +1,404 @@
+2025-09-13 22:40:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:40:12.424480', 'temperature': 78.0}
+2025-09-13 22:40:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:40:17.426318', 'temperature': 78.4}
+2025-09-13 22:40:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:40:22.435681', 'temperature': 78.8}
+2025-09-13 22:40:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:40:27.441646', 'temperature': 79.2}
+2025-09-13 22:40:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:40:32.444326', 'temperature': 79.6}
+2025-09-13 22:40:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:40:37.446383', 'temperature': 80.0}
+2025-09-13 22:40:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:40:42.450320', 'temperature': 80.4}
+2025-09-13 22:40:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:40:47.452617', 'temperature': 80.8}
+2025-09-13 22:40:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:40:52.458057', 'temperature': 81.2}
+2025-09-13 22:40:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:40:57.461358', 'temperature': 81.6}
+2025-09-13 22:41:02 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:41:02.466718', 'temperature': 82.0}
+2025-09-13 22:41:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:41:07.470836', 'temperature': 82.4}
+2025-09-13 22:41:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:41:12.472723', 'temperature': 82.8}
+2025-09-13 22:41:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:41:17.478765', 'temperature': 83.2}
+2025-09-13 22:41:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:41:22.484294', 'temperature': 83.6}
+2025-09-13 22:41:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:41:27.490485', 'temperature': 84.0}
+2025-09-13 22:41:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:41:32.493236', 'temperature': 84.4}
+2025-09-13 22:41:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:41:37.495234', 'temperature': 84.8}
+2025-09-13 22:41:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:41:42.497566', 'temperature': 85.2}
+2025-09-13 22:41:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:41:47.503575', 'temperature': 85.6}
+2025-09-13 22:41:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:41:52.509504', 'temperature': 86.0}
+2025-09-13 22:41:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:41:57.516320', 'temperature': 86.4}
+2025-09-13 22:42:02 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:42:02.519030', 'temperature': 86.8}
+2025-09-13 22:42:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:42:07.522200', 'temperature': 87.2}
+2025-09-13 22:42:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:42:12.525241', 'temperature': 87.6}
+2025-09-13 22:42:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:42:17.528480', 'temperature': 88.0}
+2025-09-13 22:42:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:42:22.532396', 'temperature': 88.4}
+2025-09-13 22:42:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:42:27.535606', 'temperature': 88.8}
+2025-09-13 22:42:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:42:32.538136', 'temperature': 89.2}
+2025-09-13 22:42:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:42:37.540922', 'temperature': 89.6}
+2025-09-13 22:42:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:42:42.542976', 'temperature': 90.0}
+2025-09-13 22:42:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:42:47.546012', 'temperature': 90.4}
+2025-09-13 22:42:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:42:52.548874', 'temperature': 90.8}
+2025-09-13 22:42:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:42:57.551373', 'temperature': 91.2}
+2025-09-13 22:43:02 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:43:02.553741', 'temperature': 91.6}
+2025-09-13 22:43:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:43:07.555303', 'temperature': 92.0}
+2025-09-13 22:43:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:43:12.558373', 'temperature': 92.4}
+2025-09-13 22:43:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:43:17.560558', 'temperature': 92.8}
+2025-09-13 22:43:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:43:22.562831', 'temperature': 93.2}
+2025-09-13 22:43:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:43:27.566267', 'temperature': 93.6}
+2025-09-13 22:43:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:43:32.569747', 'temperature': 94.0}
+2025-09-13 22:43:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:43:37.571847', 'temperature': 94.4}
+2025-09-13 22:43:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:43:42.573059', 'temperature': 94.8}
+2025-09-13 22:43:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:43:47.576400', 'temperature': 95.2}
+2025-09-13 22:43:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:43:52.583174', 'temperature': 95.6}
+2025-09-13 22:43:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:43:57.584919', 'temperature': 96.0}
+2025-09-13 22:44:02 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:44:02.586611', 'temperature': 96.4}
+2025-09-13 22:44:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:44:07.588374', 'temperature': 96.8}
+2025-09-13 22:44:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:44:12.593998', 'temperature': 97.2}
+2025-09-13 22:44:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:44:17.599017', 'temperature': 97.6}
+2025-09-13 22:44:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:44:22.600750', 'temperature': 98.0}
+2025-09-13 22:44:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:44:27.604167', 'temperature': 98.4}
+2025-09-13 22:44:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:44:32.610823', 'temperature': 98.8}
+2025-09-13 22:44:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:44:37.613110', 'temperature': 99.2}
+2025-09-13 22:44:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:44:42.614624', 'temperature': 99.6}
+2025-09-13 22:44:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:44:47.618467', 'temperature': 100.0}
+2025-09-13 22:44:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:44:52.620996', 'temperature': 100.4}
+2025-09-13 22:44:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:44:57.626018', 'temperature': 100.8}
+2025-09-13 22:45:02 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:45:02.633450', 'temperature': 101.2}
+2025-09-13 22:45:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:45:07.635572', 'temperature': 101.6}
+2025-09-13 22:45:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:45:12.638131', 'temperature': 102.0}
+2025-09-13 22:45:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:45:17.641586', 'temperature': 102.4}
+2025-09-13 22:45:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:45:22.643265', 'temperature': 102.8}
+2025-09-13 22:45:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:45:27.645836', 'temperature': 103.2}
+2025-09-13 22:45:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:45:32.665872', 'temperature': 103.6}
+2025-09-13 22:45:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:45:37.669618', 'temperature': 104.0}
+2025-09-13 22:45:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:45:42.671604', 'temperature': 104.4}
+2025-09-13 22:45:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:45:47.673601', 'temperature': 104.8}
+2025-09-13 22:45:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:45:52.675397', 'temperature': 105.2}
+2025-09-13 22:45:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:45:57.678471', 'temperature': 105.6}
+2025-09-13 22:46:02 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:46:02.681746', 'temperature': 106.0}
+2025-09-13 22:46:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:46:07.684538', 'temperature': 106.4}
+2025-09-13 22:46:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:46:12.687190', 'temperature': 106.8}
+2025-09-13 22:46:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:46:17.689996', 'temperature': 107.2}
+2025-09-13 22:46:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:46:22.691924', 'temperature': 107.6}
+2025-09-13 22:46:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:46:27.694149', 'temperature': 108.0}
+2025-09-13 22:46:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:46:32.697067', 'temperature': 108.4}
+2025-09-13 22:46:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:46:37.700835', 'temperature': 108.8}
+2025-09-13 22:46:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:46:42.708650', 'temperature': 109.2}
+2025-09-13 22:46:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:46:47.712888', 'temperature': 109.6}
+2025-09-13 22:46:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:46:52.718452', 'temperature': 110.0}
+2025-09-13 22:46:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:46:57.726206', 'temperature': 110.4}
+2025-09-13 22:47:02 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:47:02.728344', 'temperature': 110.8}
+2025-09-13 22:47:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:47:07.734258', 'temperature': 111.2}
+2025-09-13 22:47:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:47:12.740307', 'temperature': 111.6}
+2025-09-13 22:47:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:47:17.743897', 'temperature': 112.0}
+2025-09-13 22:47:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:47:22.749929', 'temperature': 112.4}
+2025-09-13 22:47:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:47:27.758722', 'temperature': 112.8}
+2025-09-13 22:47:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:47:32.767914', 'temperature': 113.2}
+2025-09-13 22:47:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:47:37.770254', 'temperature': 113.6}
+2025-09-13 22:47:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:47:42.773351', 'temperature': 114.0}
+2025-09-13 22:47:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:47:47.776475', 'temperature': 114.4}
+2025-09-13 22:47:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:47:52.780071', 'temperature': 114.8}
+2025-09-13 22:47:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:47:57.789935', 'temperature': 115.2}
+2025-09-13 22:48:02 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:48:02.792037', 'temperature': 115.6}
+2025-09-13 22:48:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:48:07.796330', 'temperature': 116.0}
+2025-09-13 22:48:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:48:12.798918', 'temperature': 116.4}
+2025-09-13 22:48:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:48:17.801827', 'temperature': 116.8}
+2025-09-13 22:48:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:48:22.804367', 'temperature': 117.2}
+2025-09-13 22:48:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:48:27.806946', 'temperature': 117.6}
+2025-09-13 22:48:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:48:32.809605', 'temperature': 118.0}
+2025-09-13 22:48:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:48:37.812887', 'temperature': 118.4}
+2025-09-13 22:48:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:48:42.816172', 'temperature': 118.8}
+2025-09-13 22:48:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:48:47.823740', 'temperature': 119.2}
+2025-09-13 22:48:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:48:52.825512', 'temperature': 119.6}
+2025-09-13 22:48:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:48:57.831483', 'temperature': 120.0}
+2025-09-13 22:49:02 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:49:02.836512', 'temperature': 120.4}
+2025-09-13 22:49:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:49:07.840165', 'temperature': 120.8}
+2025-09-13 22:49:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:49:12.844891', 'temperature': 121.2}
+2025-09-13 22:49:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:49:17.852321', 'temperature': 121.6}
+2025-09-13 22:49:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:49:22.854524', 'temperature': 122.0}
+2025-09-13 22:49:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:49:27.859533', 'temperature': 122.4}
+2025-09-13 22:49:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:49:32.864280', 'temperature': 122.8}
+2025-09-13 22:49:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:49:37.869711', 'temperature': 123.2}
+2025-09-13 22:49:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:49:42.872309', 'temperature': 123.6}
+2025-09-13 22:49:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:49:47.876991', 'temperature': 124.0}
+2025-09-13 22:49:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:49:52.884725', 'temperature': 124.4}
+2025-09-13 22:49:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:49:57.887419', 'temperature': 124.8}
+2025-09-13 22:50:02 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:50:02.890357', 'temperature': 125.2}
+2025-09-13 22:50:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:50:07.895387', 'temperature': 125.6}
+2025-09-13 22:50:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:50:12.896599', 'temperature': 126.0}
+2025-09-13 22:50:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:50:17.902249', 'temperature': 126.4}
+2025-09-13 22:50:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:50:22.907150', 'temperature': 126.8}
+2025-09-13 22:50:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:50:27.909838', 'temperature': 127.2}
+2025-09-13 22:50:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:50:32.911534', 'temperature': 127.6}
+2025-09-13 22:50:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:50:37.913009', 'temperature': 128.0}
+2025-09-13 22:50:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:50:42.916422', 'temperature': 128.4}
+2025-09-13 22:50:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:50:47.919564', 'temperature': 128.8}
+2025-09-13 22:50:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:50:52.921865', 'temperature': 129.2}
+2025-09-13 22:50:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:50:57.923298', 'temperature': 129.6}
+2025-09-13 22:51:02 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:51:02.926604', 'temperature': 130.0}
+2025-09-13 22:51:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:51:07.931726', 'temperature': 130.4}
+2025-09-13 22:51:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:51:12.935031', 'temperature': 130.8}
+2025-09-13 22:51:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:51:17.937284', 'temperature': 131.2}
+2025-09-13 22:51:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:51:22.941933', 'temperature': 131.6}
+2025-09-13 22:51:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:51:27.947217', 'temperature': 132.0}
+2025-09-13 22:51:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:51:32.950792', 'temperature': 132.4}
+2025-09-13 22:51:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:51:37.953311', 'temperature': 132.8}
+2025-09-13 22:51:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:51:42.959213', 'temperature': 133.2}
+2025-09-13 22:51:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:51:47.961511', 'temperature': 133.6}
+2025-09-13 22:51:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:51:52.964689', 'temperature': 134.0}
+2025-09-13 22:51:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:51:57.967824', 'temperature': 134.4}
+2025-09-13 22:52:02 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:52:02.972394', 'temperature': 134.8}
+2025-09-13 22:52:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:52:07.973982', 'temperature': 135.2}
+2025-09-13 22:52:11 | INFO | Logging to file: logs/project_log.log
+2025-09-13 22:52:11 | INFO | Log sanitization enabled, personal info removed
+2025-09-13 22:52:11 | INFO | START consumer.
+2025-09-13 22:52:11 | INFO | Kafka topic: smoker_csv
+2025-09-13 22:52:11 | INFO | Kafka consumer group id: smoker_group
+2025-09-13 22:52:11 | INFO | Rolling window size: 10
+2025-09-13 22:52:11 | INFO | Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-09-13 22:52:11 | INFO | Rolling window size: 10
+2025-09-13 22:52:11 | INFO | Kafka broker address: localhost:9092
+2025-09-13 22:52:11 | INFO | Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-09-13 22:52:11 | INFO | Kafka consumer created successfully.
+2025-09-13 22:52:11 | INFO | Polling messages from topic 'smoker_csv'...
+2025-09-13 22:52:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:52:12.976409', 'temperature': 135.6}
+2025-09-13 22:52:15 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:38:37.316764', 'temperature': 70.4}
+2025-09-13 22:52:15 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:38:42.319750', 'temperature': 70.8}
+2025-09-13 22:52:15 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:38:47.325839', 'temperature': 71.2}
+2025-09-13 22:52:15 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:38:52.335929', 'temperature': 71.6}
+2025-09-13 22:52:16 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:38:57.341346', 'temperature': 72.0}
+2025-09-13 22:52:16 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:39:02.347307', 'temperature': 72.4}
+2025-09-13 22:52:16 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:39:07.353411', 'temperature': 72.8}
+2025-09-13 22:52:16 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:39:12.359627', 'temperature': 73.2}
+2025-09-13 22:52:16 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:39:17.367428', 'temperature': 73.6}
+2025-09-13 22:52:16 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:39:22.372981', 'temperature': 74.0}
+2025-09-13 22:52:16 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:39:27.380196', 'temperature': 74.4}
+2025-09-13 22:52:16 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:39:32.383197', 'temperature': 74.8}
+2025-09-13 22:52:16 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:39:37.389182', 'temperature': 75.2}
+2025-09-13 22:52:17 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:39:42.395108', 'temperature': 75.6}
+2025-09-13 22:52:17 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:39:47.399623', 'temperature': 76.0}
+2025-09-13 22:52:17 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:39:52.405644', 'temperature': 76.4}
+2025-09-13 22:52:17 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:39:57.408766', 'temperature': 76.8}
+2025-09-13 22:52:17 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:40:02.415098', 'temperature': 77.2}
+2025-09-13 22:52:17 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:40:07.422643', 'temperature': 77.6}
+2025-09-13 22:52:17 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:40:12.424480', 'temperature': 78.0}
+2025-09-13 22:52:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:52:17.979108', 'temperature': 136.0}
+2025-09-13 22:52:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:40:17.426318', 'temperature': 78.4}
+2025-09-13 22:52:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:40:22.435681', 'temperature': 78.8}
+2025-09-13 22:52:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:40:27.441646', 'temperature': 79.2}
+2025-09-13 22:52:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:40:32.444326', 'temperature': 79.6}
+2025-09-13 22:52:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:40:37.446383', 'temperature': 80.0}
+2025-09-13 22:52:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:40:42.450320', 'temperature': 80.4}
+2025-09-13 22:52:19 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:40:47.452617', 'temperature': 80.8}
+2025-09-13 22:52:19 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:40:52.458057', 'temperature': 81.2}
+2025-09-13 22:52:19 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:40:57.461358', 'temperature': 81.6}
+2025-09-13 22:52:19 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:41:02.466718', 'temperature': 82.0}
+2025-09-13 22:52:19 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:41:07.470836', 'temperature': 82.4}
+2025-09-13 22:52:19 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:41:12.472723', 'temperature': 82.8}
+2025-09-13 22:52:20 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:41:17.478765', 'temperature': 83.2}
+2025-09-13 22:52:20 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:41:22.484294', 'temperature': 83.6}
+2025-09-13 22:52:20 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:41:27.490485', 'temperature': 84.0}
+2025-09-13 22:52:20 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:41:32.493236', 'temperature': 84.4}
+2025-09-13 22:52:20 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:41:37.495234', 'temperature': 84.8}
+2025-09-13 22:52:21 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:41:42.497566', 'temperature': 85.2}
+2025-09-13 22:52:21 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:41:47.503575', 'temperature': 85.6}
+2025-09-13 22:52:21 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:41:52.509504', 'temperature': 86.0}
+2025-09-13 22:52:21 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:41:57.516320', 'temperature': 86.4}
+2025-09-13 22:52:21 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:42:02.519030', 'temperature': 86.8}
+2025-09-13 22:52:22 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:42:07.522200', 'temperature': 87.2}
+2025-09-13 22:52:22 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:42:12.525241', 'temperature': 87.6}
+2025-09-13 22:52:22 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:42:17.528480', 'temperature': 88.0}
+2025-09-13 22:52:22 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:42:22.532396', 'temperature': 88.4}
+2025-09-13 22:52:22 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:52:22.982857', 'temperature': 136.4}
+2025-09-13 22:52:23 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:42:27.535606', 'temperature': 88.8}
+2025-09-13 22:52:23 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:42:32.538136', 'temperature': 89.2}
+2025-09-13 22:52:23 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:42:37.540922', 'temperature': 89.6}
+2025-09-13 22:52:27 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:42:42.542976', 'temperature': 90.0}
+2025-09-13 22:52:27 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:42:47.546012', 'temperature': 90.4}
+2025-09-13 22:52:27 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:42:52.548874', 'temperature': 90.8}
+2025-09-13 22:52:27 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:42:57.551373', 'temperature': 91.2}
+2025-09-13 22:52:27 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:52:27.984386', 'temperature': 136.8}
+2025-09-13 22:52:28 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:43:02.553741', 'temperature': 91.6}
+2025-09-13 22:52:28 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:43:07.555303', 'temperature': 92.0}
+2025-09-13 22:52:28 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:43:12.558373', 'temperature': 92.4}
+2025-09-13 22:52:28 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:43:17.560558', 'temperature': 92.8}
+2025-09-13 22:52:28 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:43:22.562831', 'temperature': 93.2}
+2025-09-13 22:52:29 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:43:27.566267', 'temperature': 93.6}
+2025-09-13 22:52:29 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:43:32.569747', 'temperature': 94.0}
+2025-09-13 22:52:29 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:43:37.571847', 'temperature': 94.4}
+2025-09-13 22:52:29 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:43:42.573059', 'temperature': 94.8}
+2025-09-13 22:52:30 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:43:47.576400', 'temperature': 95.2}
+2025-09-13 22:52:30 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:43:52.583174', 'temperature': 95.6}
+2025-09-13 22:52:30 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:43:57.584919', 'temperature': 96.0}
+2025-09-13 22:52:31 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:44:02.586611', 'temperature': 96.4}
+2025-09-13 22:52:31 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:44:07.588374', 'temperature': 96.8}
+2025-09-13 22:52:31 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:44:12.593998', 'temperature': 97.2}
+2025-09-13 22:52:31 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:44:17.599017', 'temperature': 97.6}
+2025-09-13 22:52:32 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:44:22.600750', 'temperature': 98.0}
+2025-09-13 22:52:32 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:44:27.604167', 'temperature': 98.4}
+2025-09-13 22:52:32 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:44:32.610823', 'temperature': 98.8}
+2025-09-13 22:52:32 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:44:37.613110', 'temperature': 99.2}
+2025-09-13 22:52:32 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:52:32.985614', 'temperature': 137.2}
+2025-09-13 22:52:33 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:44:42.614624', 'temperature': 99.6}
+2025-09-13 22:52:33 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:44:47.618467', 'temperature': 100.0}
+2025-09-13 22:52:33 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:44:52.620996', 'temperature': 100.4}
+2025-09-13 22:52:34 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:44:57.626018', 'temperature': 100.8}
+2025-09-13 22:52:34 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:45:02.633450', 'temperature': 101.2}
+2025-09-13 22:52:34 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:45:07.635572', 'temperature': 101.6}
+2025-09-13 22:52:35 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:45:12.638131', 'temperature': 102.0}
+2025-09-13 22:52:35 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:45:17.641586', 'temperature': 102.4}
+2025-09-13 22:52:35 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:45:22.643265', 'temperature': 102.8}
+2025-09-13 22:52:36 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:45:27.645836', 'temperature': 103.2}
+2025-09-13 22:52:37 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:52:37.987856', 'temperature': 137.6}
+2025-09-13 22:52:39 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:45:32.665872', 'temperature': 103.6}
+2025-09-13 22:52:39 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:45:37.669618', 'temperature': 104.0}
+2025-09-13 22:52:40 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:45:42.671604', 'temperature': 104.4}
+2025-09-13 22:52:40 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:45:47.673601', 'temperature': 104.8}
+2025-09-13 22:52:40 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:45:52.675397', 'temperature': 105.2}
+2025-09-13 22:52:41 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:45:57.678471', 'temperature': 105.6}
+2025-09-13 22:52:41 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:46:02.681746', 'temperature': 106.0}
+2025-09-13 22:52:41 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:46:07.684538', 'temperature': 106.4}
+2025-09-13 22:52:42 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:46:12.687190', 'temperature': 106.8}
+2025-09-13 22:52:42 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:46:17.689996', 'temperature': 107.2}
+2025-09-13 22:52:42 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:46:22.691924', 'temperature': 107.6}
+2025-09-13 22:52:42 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:52:42.989126', 'temperature': 138.0}
+2025-09-13 22:52:43 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:46:27.694149', 'temperature': 108.0}
+2025-09-13 22:52:43 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:46:32.697067', 'temperature': 108.4}
+2025-09-13 22:52:43 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:46:37.700835', 'temperature': 108.8}
+2025-09-13 22:52:44 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:46:42.708650', 'temperature': 109.2}
+2025-09-13 22:52:44 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:46:47.712888', 'temperature': 109.6}
+2025-09-13 22:52:45 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:46:52.718452', 'temperature': 110.0}
+2025-09-13 22:52:45 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:46:57.726206', 'temperature': 110.4}
+2025-09-13 22:52:46 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:47:02.728344', 'temperature': 110.8}
+2025-09-13 22:52:46 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:47:07.734258', 'temperature': 111.2}
+2025-09-13 22:52:47 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:47:12.740307', 'temperature': 111.6}
+2025-09-13 22:52:47 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:47:17.743897', 'temperature': 112.0}
+2025-09-13 22:52:47 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:47:22.749929', 'temperature': 112.4}
+2025-09-13 22:52:47 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:52:47.991743', 'temperature': 138.4}
+2025-09-13 22:52:48 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:47:27.758722', 'temperature': 112.8}
+2025-09-13 22:52:48 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:47:32.767914', 'temperature': 113.2}
+2025-09-13 22:52:49 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:47:37.770254', 'temperature': 113.6}
+2025-09-13 22:52:49 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:47:42.773351', 'temperature': 114.0}
+2025-09-13 22:52:50 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:47:47.776475', 'temperature': 114.4}
+2025-09-13 22:52:50 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:47:52.780071', 'temperature': 114.8}
+2025-09-13 22:52:50 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:47:57.789935', 'temperature': 115.2}
+2025-09-13 22:52:51 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:48:02.792037', 'temperature': 115.6}
+2025-09-13 22:52:51 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:48:07.796330', 'temperature': 116.0}
+2025-09-13 22:52:52 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:48:12.798918', 'temperature': 116.4}
+2025-09-13 22:52:52 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:48:17.801827', 'temperature': 116.8}
+2025-09-13 22:52:52 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:52:52.992908', 'temperature': 138.8}
+2025-09-13 22:52:53 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:48:22.804367', 'temperature': 117.2}
+2025-09-13 22:52:53 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:48:27.806946', 'temperature': 117.6}
+2025-09-13 22:52:54 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:48:32.809605', 'temperature': 118.0}
+2025-09-13 22:52:54 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:48:37.812887', 'temperature': 118.4}
+2025-09-13 22:52:55 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:48:42.816172', 'temperature': 118.8}
+2025-09-13 22:52:55 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:48:47.823740', 'temperature': 119.2}
+2025-09-13 22:52:56 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:48:52.825512', 'temperature': 119.6}
+2025-09-13 22:52:56 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:48:57.831483', 'temperature': 120.0}
+2025-09-13 22:52:57 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:02.836512', 'temperature': 120.4}
+2025-09-13 22:52:57 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:07.840165', 'temperature': 120.8}
+2025-09-13 22:52:57 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:52:57.994337', 'temperature': 139.2}
+2025-09-13 22:52:58 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:12.844891', 'temperature': 121.2}
+2025-09-13 22:52:58 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:17.852321', 'temperature': 121.6}
+2025-09-13 22:52:59 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:22.854524', 'temperature': 122.0}
+2025-09-13 22:53:00 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:27.859533', 'temperature': 122.4}
+2025-09-13 22:53:00 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:32.864280', 'temperature': 122.8}
+2025-09-13 22:53:01 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:37.869711', 'temperature': 123.2}
+2025-09-13 22:53:02 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:42.872309', 'temperature': 123.6}
+2025-09-13 22:53:02 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:47.876991', 'temperature': 124.0}
+2025-09-13 22:53:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:53:03.001028', 'temperature': 139.6}
+2025-09-13 22:53:03 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:52.884725', 'temperature': 124.4}
+2025-09-13 22:53:04 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:57.887419', 'temperature': 124.8}
+2025-09-13 22:53:05 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:50:02.890357', 'temperature': 125.2}
+2025-09-13 22:53:05 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:50:07.895387', 'temperature': 125.6}
+2025-09-13 22:53:06 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:50:12.896599', 'temperature': 126.0}
+2025-09-13 22:53:07 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:50:17.902249', 'temperature': 126.4}
+2025-09-13 22:53:07 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:50:22.907150', 'temperature': 126.8}
+2025-09-13 22:53:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:53:08.017834', 'temperature': 140.0}
+2025-09-13 22:53:08 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:50:27.909838', 'temperature': 127.2}
+2025-09-13 22:53:09 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:50:32.911534', 'temperature': 127.6}
+2025-09-13 22:53:09 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:50:37.913009', 'temperature': 128.0}
+2025-09-13 22:53:10 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:50:42.916422', 'temperature': 128.4}
+2025-09-13 22:53:11 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:50:47.919564', 'temperature': 128.8}
+2025-09-13 22:53:12 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:50:52.921865', 'temperature': 129.2}
+2025-09-13 22:53:12 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:50:57.923298', 'temperature': 129.6}
+2025-09-13 22:53:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:53:13.020348', 'temperature': 140.4}
+2025-09-13 22:53:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:51:02.926604', 'temperature': 130.0}
+2025-09-13 22:53:14 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:51:07.931726', 'temperature': 130.4}
+2025-09-13 22:53:14 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:51:12.935031', 'temperature': 130.8}
+2025-09-13 22:53:15 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:51:17.937284', 'temperature': 131.2}
+2025-09-13 22:53:15 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:51:22.941933', 'temperature': 131.6}
+2025-09-13 22:53:16 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:51:27.947217', 'temperature': 132.0}
+2025-09-13 22:53:16 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:51:32.950792', 'temperature': 132.4}
+2025-09-13 22:53:17 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:51:37.953311', 'temperature': 132.8}
+2025-09-13 22:53:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:53:18.021464', 'temperature': 140.8}
+2025-09-13 22:53:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:51:42.959213', 'temperature': 133.2}
+2025-09-13 22:53:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:51:47.961511', 'temperature': 133.6}
+2025-09-13 22:53:20 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:51:52.964689', 'temperature': 134.0}
+2025-09-13 22:53:20 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:51:57.967824', 'temperature': 134.4}
+2025-09-13 22:53:21 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:52:02.972394', 'temperature': 134.8}
+2025-09-13 22:53:22 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:52:07.973982', 'temperature': 135.2}
+2025-09-13 22:53:22 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:52:12.976409', 'temperature': 135.6}
+2025-09-13 22:53:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:53:23.023508', 'temperature': 141.2}
+2025-09-13 22:53:23 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:52:17.979108', 'temperature': 136.0}
+2025-09-13 22:53:23 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:52:22.982857', 'temperature': 136.4}
+2025-09-13 22:53:24 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:52:27.984386', 'temperature': 136.8}
+2025-09-13 22:53:25 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:52:32.985614', 'temperature': 137.2}
+2025-09-13 22:53:25 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:52:37.987856', 'temperature': 137.6}
+2025-09-13 22:53:26 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:52:42.989126', 'temperature': 138.0}
+2025-09-13 22:53:26 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:52:47.991743', 'temperature': 138.4}
+2025-09-13 22:53:27 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:52:52.992908', 'temperature': 138.8}
+2025-09-13 22:53:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:53:28.025598', 'temperature': 141.6}
+2025-09-13 22:53:28 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:52:57.994337', 'temperature': 139.2}
+2025-09-13 22:53:28 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:53:03.001028', 'temperature': 139.6}
+2025-09-13 22:53:29 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:53:08.017834', 'temperature': 140.0}
+2025-09-13 22:53:30 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:53:13.020348', 'temperature': 140.4}
+2025-09-13 22:53:32 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:53:18.021464', 'temperature': 140.8}
+2025-09-13 22:53:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:53:33.027841', 'temperature': 142.0}
+2025-09-13 22:53:33 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:53:23.023508', 'temperature': 141.2}
+2025-09-13 22:53:34 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:53:28.025598', 'temperature': 141.6}
+2025-09-13 22:53:35 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:53:33.027841', 'temperature': 142.0}
+2025-09-13 22:53:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:53:38.031584', 'temperature': 142.2}
+2025-09-13 22:53:38 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:53:38.031584', 'temperature': 142.2}
+2025-09-13 22:53:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:53:43.037165', 'temperature': 142.0}
+2025-09-13 22:53:43 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:53:43.037165', 'temperature': 142.0}
+2025-09-13 22:53:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:53:48.042219', 'temperature': 142.2}
+2025-09-13 22:53:48 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:53:48.042219', 'temperature': 142.2}
+2025-09-13 22:53:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:53:53.049218', 'temperature': 142.0}
+2025-09-13 22:53:53 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:53:53.049218', 'temperature': 142.0}
+2025-09-13 22:53:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:53:58.053668', 'temperature': 142.2}
+2025-09-13 22:53:58 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:53:58.053668', 'temperature': 142.2}
+2025-09-13 22:54:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:54:03.056574', 'temperature': 142.0}
+2025-09-13 22:54:03 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:54:03.056574', 'temperature': 142.0}
+2025-09-13 22:54:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:54:08.059775', 'temperature': 142.2}
+2025-09-13 22:54:08 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:54:08.059775', 'temperature': 142.2}
+2025-09-13 22:54:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:54:13.063766', 'temperature': 142.0}
+2025-09-13 22:54:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:54:13.063766', 'temperature': 142.0}
+2025-09-13 22:54:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:54:18.068126', 'temperature': 142.2}
+2025-09-13 22:54:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:54:18.068126', 'temperature': 142.2}
+2025-09-13 22:54:18 | INFO | STALL DETECTED at 2025-09-14T02:54:18.068126: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:54:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:54:23.070543', 'temperature': 142.0}
+2025-09-13 22:54:23 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:54:23.070543', 'temperature': 142.0}
+2025-09-13 22:54:23 | INFO | STALL DETECTED at 2025-09-14T02:54:23.070543: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:54:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:54:28.074829', 'temperature': 142.2}
+2025-09-13 22:54:28 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:54:28.074829', 'temperature': 142.2}
+2025-09-13 22:54:28 | INFO | STALL DETECTED at 2025-09-14T02:54:28.074829: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:54:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:54:33.078412', 'temperature': 142.0}
+2025-09-13 22:54:33 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:54:33.078412', 'temperature': 142.0}
+2025-09-13 22:54:33 | INFO | STALL DETECTED at 2025-09-14T02:54:33.078412: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:54:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:54:38.080968', 'temperature': 142.2}
+2025-09-13 22:54:38 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:54:38.080968', 'temperature': 142.2}
+2025-09-13 22:54:39 | INFO | STALL DETECTED at 2025-09-14T02:54:38.080968: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:54:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:54:43.082822', 'temperature': 142.0}
+2025-09-13 22:54:43 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:54:43.082822', 'temperature': 142.0}
+2025-09-13 22:54:43 | INFO | STALL DETECTED at 2025-09-14T02:54:43.082822: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:54:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:54:48.087100', 'temperature': 142.2}
+2025-09-13 22:54:48 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:54:48.087100', 'temperature': 142.2}
+2025-09-13 22:54:48 | INFO | STALL DETECTED at 2025-09-14T02:54:48.087100: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:54:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:54:53.093702', 'temperature': 142.0}
+2025-09-13 22:54:53 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:54:53.093702', 'temperature': 142.0}
+2025-09-13 22:54:53 | INFO | STALL DETECTED at 2025-09-14T02:54:53.093702: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:54:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:54:58.097381', 'temperature': 142.2}
+2025-09-13 22:54:58 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:54:58.097381', 'temperature': 142.2}
+2025-09-13 22:54:59 | INFO | STALL DETECTED at 2025-09-14T02:54:58.097381: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:55:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:55:03.103117', 'temperature': 142.0}
+2025-09-13 22:55:03 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:55:03.103117', 'temperature': 142.0}
+2025-09-13 22:55:03 | INFO | STALL DETECTED at 2025-09-14T02:55:03.103117: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:55:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:55:08.109448', 'temperature': 142.2}
+2025-09-13 22:55:08 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:55:08.109448', 'temperature': 142.2}
+2025-09-13 22:55:08 | INFO | STALL DETECTED at 2025-09-14T02:55:08.109448: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:55:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:55:13.111106', 'temperature': 142.0}
+2025-09-13 22:55:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:55:13.111106', 'temperature': 142.0}

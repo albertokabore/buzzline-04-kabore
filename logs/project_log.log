@@ -1,2 +1,122 @@
-2025-09-13 17:44:00 | INFO | Chart updated successfully.
-2025-09-13 17:44:00 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T21:44:00.476386', 'temperature': 102.4}
+2025-09-13 22:55:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:55:18.117911', 'temperature': 142.2}
+2025-09-13 22:55:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:55:18.117911', 'temperature': 142.2}
+2025-09-13 22:55:18 | INFO | STALL DETECTED at 2025-09-14T02:55:18.117911: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:55:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:55:23.137634', 'temperature': 142.0}
+2025-09-13 22:55:23 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:55:23.137634', 'temperature': 142.0}
+2025-09-13 22:55:23 | INFO | STALL DETECTED at 2025-09-14T02:55:23.137634: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:55:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:55:28.140031', 'temperature': 142.2}
+2025-09-13 22:55:28 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:55:28.140031', 'temperature': 142.2}
+2025-09-13 22:55:29 | INFO | STALL DETECTED at 2025-09-14T02:55:28.140031: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:55:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:55:33.145438', 'temperature': 142.0}
+2025-09-13 22:55:33 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:55:33.145438', 'temperature': 142.0}
+2025-09-13 22:55:33 | INFO | STALL DETECTED at 2025-09-14T02:55:33.145438: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:55:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:55:38.148514', 'temperature': 142.2}
+2025-09-13 22:55:38 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:55:38.148514', 'temperature': 142.2}
+2025-09-13 22:55:39 | INFO | STALL DETECTED at 2025-09-14T02:55:38.148514: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:55:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:55:43.151725', 'temperature': 142.0}
+2025-09-13 22:55:43 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:55:43.151725', 'temperature': 142.0}
+2025-09-13 22:55:43 | INFO | STALL DETECTED at 2025-09-14T02:55:43.151725: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:55:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:55:48.156239', 'temperature': 142.2}
+2025-09-13 22:55:48 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:55:48.156239', 'temperature': 142.2}
+2025-09-13 22:55:49 | INFO | STALL DETECTED at 2025-09-14T02:55:48.156239: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:55:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:55:53.158673', 'temperature': 142.0}
+2025-09-13 22:55:53 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:55:53.158673', 'temperature': 142.0}
+2025-09-13 22:55:53 | INFO | STALL DETECTED at 2025-09-14T02:55:53.158673: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:55:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:55:58.162712', 'temperature': 142.2}
+2025-09-13 22:55:58 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:55:58.162712', 'temperature': 142.2}
+2025-09-13 22:55:59 | INFO | STALL DETECTED at 2025-09-14T02:55:58.162712: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:56:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:56:03.164232', 'temperature': 142.0}
+2025-09-13 22:56:03 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:56:03.164232', 'temperature': 142.0}
+2025-09-13 22:56:03 | INFO | STALL DETECTED at 2025-09-14T02:56:03.164232: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:56:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:56:08.171791', 'temperature': 142.2}
+2025-09-13 22:56:08 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:56:08.171791', 'temperature': 142.2}
+2025-09-13 22:56:09 | INFO | STALL DETECTED at 2025-09-14T02:56:08.171791: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:56:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:56:13.174874', 'temperature': 142.0}
+2025-09-13 22:56:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:56:13.174874', 'temperature': 142.0}
+2025-09-13 22:56:14 | INFO | STALL DETECTED at 2025-09-14T02:56:13.174874: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:56:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:56:18.179607', 'temperature': 142.2}
+2025-09-13 22:56:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:56:18.179607', 'temperature': 142.2}
+2025-09-13 22:56:19 | INFO | STALL DETECTED at 2025-09-14T02:56:18.179607: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:56:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:56:23.182886', 'temperature': 142.0}
+2025-09-13 22:56:23 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:56:23.182886', 'temperature': 142.0}
+2025-09-13 22:56:24 | INFO | STALL DETECTED at 2025-09-14T02:56:23.182886: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:56:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:56:28.185676', 'temperature': 142.2}
+2025-09-13 22:56:28 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:56:28.185676', 'temperature': 142.2}
+2025-09-13 22:56:28 | INFO | STALL DETECTED at 2025-09-14T02:56:28.185676: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:56:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:56:33.187351', 'temperature': 142.0}
+2025-09-13 22:56:33 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:56:33.187351', 'temperature': 142.0}
+2025-09-13 22:56:34 | INFO | STALL DETECTED at 2025-09-14T02:56:33.187351: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:56:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:56:38.190347', 'temperature': 142.2}
+2025-09-13 22:56:38 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:56:38.190347', 'temperature': 142.2}
+2025-09-13 22:56:39 | INFO | STALL DETECTED at 2025-09-14T02:56:38.190347: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:56:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:56:43.191874', 'temperature': 142.0}
+2025-09-13 22:56:43 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:56:43.191874', 'temperature': 142.0}
+2025-09-13 22:56:43 | INFO | STALL DETECTED at 2025-09-14T02:56:43.191874: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:56:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:56:48.199000', 'temperature': 142.2}
+2025-09-13 22:56:48 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:56:48.199000', 'temperature': 142.2}
+2025-09-13 22:56:49 | INFO | STALL DETECTED at 2025-09-14T02:56:48.199000: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:56:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:56:53.200695', 'temperature': 142.0}
+2025-09-13 22:56:53 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:56:53.200695', 'temperature': 142.0}
+2025-09-13 22:56:54 | INFO | STALL DETECTED at 2025-09-14T02:56:53.200695: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:56:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:56:58.205039', 'temperature': 142.2}
+2025-09-13 22:56:58 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:56:58.205039', 'temperature': 142.2}
+2025-09-13 22:56:59 | INFO | STALL DETECTED at 2025-09-14T02:56:58.205039: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:57:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:57:03.206358', 'temperature': 142.0}
+2025-09-13 22:57:03 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:57:03.206358', 'temperature': 142.0}
+2025-09-13 22:57:04 | INFO | STALL DETECTED at 2025-09-14T02:57:03.206358: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:57:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:57:08.208163', 'temperature': 142.2}
+2025-09-13 22:57:08 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:57:08.208163', 'temperature': 142.2}
+2025-09-13 22:57:09 | INFO | STALL DETECTED at 2025-09-14T02:57:08.208163: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:57:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:57:13.210044', 'temperature': 142.0}
+2025-09-13 22:57:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:57:13.210044', 'temperature': 142.0}
+2025-09-13 22:57:14 | INFO | STALL DETECTED at 2025-09-14T02:57:13.210044: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:57:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:57:18.229224', 'temperature': 142.2}
+2025-09-13 22:57:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:57:18.229224', 'temperature': 142.2}
+2025-09-13 22:57:19 | INFO | STALL DETECTED at 2025-09-14T02:57:18.229224: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:57:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:57:23.235147', 'temperature': 142.0}
+2025-09-13 22:57:23 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:57:23.235147', 'temperature': 142.0}
+2025-09-13 22:57:24 | INFO | STALL DETECTED at 2025-09-14T02:57:23.235147: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:57:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:57:28.240447', 'temperature': 142.2}
+2025-09-13 22:57:28 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:57:28.240447', 'temperature': 142.2}
+2025-09-13 22:57:29 | INFO | STALL DETECTED at 2025-09-14T02:57:28.240447: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:57:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:57:33.242371', 'temperature': 142.0}
+2025-09-13 22:57:33 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:57:33.242371', 'temperature': 142.0}
+2025-09-13 22:57:34 | INFO | STALL DETECTED at 2025-09-14T02:57:33.242371: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:57:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:57:38.246127', 'temperature': 142.2}
+2025-09-13 22:57:38 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:57:38.246127', 'temperature': 142.2}
+2025-09-13 22:57:39 | INFO | STALL DETECTED at 2025-09-14T02:57:38.246127: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:57:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:57:43.249824', 'temperature': 142.0}
+2025-09-13 22:57:43 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:57:43.249824', 'temperature': 142.0}
+2025-09-13 22:57:44 | INFO | STALL DETECTED at 2025-09-14T02:57:43.249824: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:57:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:57:48.255041', 'temperature': 142.2}
+2025-09-13 22:57:48 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:57:48.255041', 'temperature': 142.2}
+2025-09-13 22:57:49 | INFO | STALL DETECTED at 2025-09-14T02:57:48.255041: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:57:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:57:53.257299', 'temperature': 142.0}
+2025-09-13 22:57:53 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:57:53.257299', 'temperature': 142.0}
+2025-09-13 22:57:54 | INFO | STALL DETECTED at 2025-09-14T02:57:53.257299: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:57:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:57:58.259450', 'temperature': 142.2}
+2025-09-13 22:57:58 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:57:58.259450', 'temperature': 142.2}
+2025-09-13 22:57:59 | INFO | STALL DETECTED at 2025-09-14T02:57:58.259450: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:58:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:58:03.261819', 'temperature': 142.0}
+2025-09-13 22:58:03 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:58:03.261819', 'temperature': 142.0}
+2025-09-13 22:58:04 | INFO | STALL DETECTED at 2025-09-14T02:58:03.261819: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:58:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:58:08.264115', 'temperature': 142.2}
+2025-09-13 22:58:08 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:58:08.264115', 'temperature': 142.2}
+2025-09-13 22:58:09 | INFO | STALL DETECTED at 2025-09-14T02:58:08.264115: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:58:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:58:13.266360', 'temperature': 142.0}
+2025-09-13 22:58:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:58:13.266360', 'temperature': 142.0}
+2025-09-13 22:58:14 | INFO | STALL DETECTED at 2025-09-14T02:58:13.266360: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:58:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:58:18.267386', 'temperature': 142.2}
+2025-09-13 22:58:18 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:58:18.267386', 'temperature': 142.2}
+2025-09-13 22:58:19 | INFO | STALL DETECTED at 2025-09-14T02:58:18.267386: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:58:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:58:23.274605', 'temperature': 142.0}
+2025-09-13 22:58:23 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:58:23.274605', 'temperature': 142.0}
+2025-09-13 22:58:24 | INFO | STALL DETECTED at 2025-09-14T02:58:23.274605: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:58:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:58:28.277514', 'temperature': 142.2}
+2025-09-13 22:58:28 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:58:28.277514', 'temperature': 142.2}
+2025-09-13 22:58:29 | INFO | STALL DETECTED at 2025-09-14T02:58:28.277514: Temp stable at 142.2°F over last 10 readings.
+2025-09-13 22:58:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-14T02:58:33.278666', 'temperature': 142.0}
+2025-09-13 22:58:33 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:58:33.278666', 'temperature': 142.0}
+2025-09-13 22:58:34 | INFO | STALL DETECTED at 2025-09-14T02:58:33.278666: Temp stable at 142.0°F over last 10 readings.
+2025-09-13 22:58:38 | INFO | Kafka producer closed.
+2025-09-13 22:58:38 | INFO | END producer.
