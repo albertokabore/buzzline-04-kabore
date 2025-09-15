@@ -1,318 +1,275 @@
 """
-csv_consumer_case.py
+project_consumer_kabore.py
 
-Consume json messages from a Kafka topic and visualize author counts in real-time.
+Live rolling sentiment visualization for P4.
+- Ingest: Kafka by default (PROJECT_TOPIC), optional file tail (PROJECT_INGEST_MODE=file).
+- Plot: sentiment and rolling average over time.
+- Title includes student name: Albert Kabore.
 
-Example Kafka message format:
-{"timestamp": "2025-01-11T18:15:00Z", "temperature": 225.0}
-
+Run from repo root:
+  py -m consumers.project_consumer_kabore      # start consumer FIRST
+  py -m producers.project_producer_case        # then producer
 """
 
-#####################################
-# Import Modules
-#####################################
-
-# Import packages from Python Standard Library
+# ----------- stdlib -----------
 import os
-import json  # handle JSON parsing
-
-# Use a deque ("deck") - a double-ended queue data structure
-# A deque is a good way to monitor a certain number of "most recent" messages
-# A deque is a great data structure for time windows (e.g. the last 5 messages)
+import json
+import time
 from collections import deque
+from datetime import datetime, timezone
+from typing import Union
+from pathlib import Path
 
-# Import external packages
+# ----------- env --------------
 from dotenv import load_dotenv
+load_dotenv()
 
-# IMPORTANT
-# Import Matplotlib.pyplot for live plotting
-# Use the common alias 'plt' for Matplotlib.pyplot
-# Know pyplot well
+# ----------- matplotlib (Windows-stable backend BEFORE pyplot) -----------
+import sys
+import platform
+import matplotlib
+if os.name == "nt":
+    # Prefer TkAgg on Windows for smoother interactive redraws
+    matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 
-# Import functions from local modules
+# ----------- local utils ------
 from utils.utils_consumer import create_kafka_consumer
 from utils.utils_logger import logger
 
-#####################################
-# Load Environment Variables
-#####################################
 
-load_dotenv()
+# ================== ENV GETTERS ==================
+def get_ingest_mode() -> str:
+    return os.getenv("PROJECT_INGEST_MODE", "kafka").strip().lower()
 
-#####################################
-# Getter Functions for .env Variables
-#####################################
+def get_topic() -> str:
+    # Match producer default
+    return os.getenv("PROJECT_TOPIC", os.getenv("BUZZ_TOPIC", "buzzline-topic"))
 
+def get_group_id() -> str:
+    return os.getenv("PROJECT_CONSUMER_GROUP_ID", "project_group_kabore")
 
-def get_kafka_topic() -> str:
-    """Fetch Kafka topic from environment or use default."""
-    topic = os.getenv("SMOKER_TOPIC", "unknown_topic")
-    logger.info(f"Kafka topic: {topic}")
-    return topic
-
-
-def get_kafka_consumer_group_id() -> str:
-    """Fetch Kafka consumer group id from environment or use default."""
-    group_id: str = os.getenv("SMOKER_CONSUMER_GROUP_ID", "default_group")
-    logger.info(f"Kafka consumer group id: {group_id}")
-    return group_id
-
-
-def get_stall_threshold() -> float:
-    """Fetch message interval from environment or use default."""
-    temp_variation = float(os.getenv("SMOKER_STALL_THRESHOLD_F", 0.2))
-    return temp_variation
-
-
-def get_rolling_window_size() -> int:
-    """Fetch rolling window size from environment or use default."""
-    window_size = int(os.getenv("SMOKER_ROLLING_WINDOW_SIZE", 5))
-    logger.info(f"Rolling window size: {window_size}")
-    return window_size
-
-
-#####################################
-# Set up data structures (empty lists)
-#####################################
-
-timestamps = []  # To store timestamps for the x-axis
-temperatures = []  # To store temperature readings for the y-axis
-
-#####################################
-# Set up live visuals
-#####################################
-
-# Use the subplots() method to create a tuple containing
-# two objects at once:
-# - a figure (which can have many axis)
-# - an axis (what they call a chart in Matplotlib)
-fig, ax = plt.subplots()
-
-# Use the ion() method (stands for "interactive on")
-# to turn on interactive mode for live updates
-plt.ion()
-
-
-#####################################
-# Define a function to detect a stall
-#####################################
-
-
-def detect_stall(rolling_window_deque: deque, window_size: int) -> bool:
-    """
-    Detect a temperature stall based on the rolling window.
-
-    Args:
-        rolling_window_deque (deque): Rolling window of temperature readings.
-
-    Returns:
-        bool: True if a stall is detected, False otherwise.
-    """
-    if len(rolling_window_deque) < window_size:
-        # We don't have a full deque yet
-        # Keep reading until the deque is full
-        logger.debug(
-            f"Rolling window current size: {len(rolling_window_deque)}. Waiting for {window_size}."
-        )
-        return False
-
-    # Once the deque is full we can calculate the temperature range
-    # Use Python's built-in min() and max() functions
-    # If the range is less than or equal to the threshold, we have a stall
-    # And our food is ready :)
-    temp_range = max(rolling_window_deque) - min(rolling_window_deque)
-    is_stalled: bool = temp_range <= get_stall_threshold()
-    if is_stalled:
-        logger.debug(f"Temperature range: {temp_range}°F. Stalled: {is_stalled}")
-    return is_stalled
-
-
-#####################################
-# Define an update chart function for live plotting
-# This will get called every time a new message is processed
-#####################################
-
-
-def update_chart(rolling_window, window_size):
-    """
-    Update temperature vs. time chart.
-    Args:
-        rolling_window (deque): Rolling window of temperature readings.
-        window_size (int): Size of the rolling window.
-    """
-    # Clear the previous chart
-    ax.clear()  
-
-    # Create a line chart using the plot() method
-    # Use the timestamps for the x-axis and temperatures for the y-axis
-    # Use the label parameter to add a legend entry
-    # Use the color parameter to set the line color
-    ax.plot(timestamps, temperatures, label="Temperature", color="blue")
-
-    # Use the built-in axes methods to set the labels and title
-    ax.set_xlabel("Time")
-    ax.set_ylabel("Temperature (°F)")
-    ax.set_title("Smart Smoker: Temperature vs. Time by Albert Kabore")
-
-    # Highlight stall points if conditions are met such that
-    #    The rolling window is full and a stall is detected
-    if len(rolling_window) >= window_size and detect_stall(rolling_window, window_size):
-        # Mark the stall point on the chart
-
-        # An index of -1 gets the last element in a list
-        stall_time = timestamps[-1]
-        stall_temp = temperatures[-1]
-
-        # Use the scatter() method to plot a point
-        # Pass in the x value as a list, the y value as a list (using [])
-        # and set the marker color and label
-        # zorder is used to ensure the point is plotted on TOP of the line chart
-        # zorder of 5 is higher than the default zorder of 2
-        ax.scatter(
-            [stall_time], [stall_temp], color="red", label="Stall Detected", zorder=5
-        )
-
-        # Use the annotate() method to add a text label
-        # To learn more, look up the matplotlib axes.annotate documentation
-        # https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.annotate.html
-        # textcoords="offset points" means the label is placed relative to the point
-        # xytext=(10, -10) means the label is placed 10 points to the right and 10 points down from the point 
-        # Typically, the first number is x (horizontal) and the second is y (vertical)
-        # x: Positive moves to the right, negative to the left
-        # y: Positive moves up, negative moves down
-        # ha stands for horizontal alignment
-        # We set color to red, a common convention for warnings
-        ax.annotate(
-            "Stall Detected",
-            (stall_time, stall_temp),
-            textcoords="offset points",
-            xytext=(10, -10),
-            ha="center",
-            color="red",
-        )
-
-    # Regardless of whether a stall is detected, we want to show the legend
-
-    # Use the legend() method to display the legend
-    ax.legend()
-
-    # Use the autofmt_xdate() method to automatically format the x-axis labels as dates
-    fig.autofmt_xdate()
-
-    # Use the tight_layout() method to automatically adjust the padding
-    plt.tight_layout()
-
-    # Draw the chart
-    plt.draw()
-
-    # Pause briefly to allow some time for the chart to render
-    plt.pause(0.01)  
-
-
-#####################################
-# Function to process a single message
-# #####################################
-
-
-def process_message(message: str, rolling_window: deque, window_size: int) -> None:
-    """
-    Process a JSON-transferred CSV message and check for stalls.
-
-    Args:
-        message (str): JSON message received from Kafka.
-        rolling_window (deque): Rolling window of temperature readings.
-        window_size (int): Size of the rolling window.
-    """
+def get_roll_window() -> int:
     try:
-        # Log the raw message for debugging
-        logger.debug(f"Raw message: {message}")
+        return int(os.getenv("PROJECT_ROLLING_WINDOW_SIZE", "30"))
+    except ValueError:
+        return 30
 
-        # Parse the JSON string into a Python dictionary
-        data: dict = json.loads(message)
-        temperature = data.get("temperature")
-        timestamp = data.get("timestamp")
-        logger.info(f"Processed JSON message: {data}")
+def get_history_size() -> int:
+    # how many points to keep in plot history
+    try:
+        return int(os.getenv("PROJECT_HISTORY_SIZE", "600"))
+    except ValueError:
+        return 600
 
-        # Ensure the required fields are present
-        if temperature is None or timestamp is None:
-            logger.error(f"Invalid message format: {message}")
+def get_plot_fps() -> float:
+    # max redraws per second
+    try:
+        return float(os.getenv("PROJECT_PLOT_FPS", "10"))
+    except ValueError:
+        return 10.0
+
+def get_data_file() -> Path:
+    repo_root = Path(__file__).resolve().parents[1]
+    return repo_root / "data" / "project_live.json"
+
+
+# ================== PARSERS ==================
+def parse_ts(ts: Union[str, datetime]) -> datetime:
+    """Parse timestamp formats from producer; return tz-aware datetime."""
+    if isinstance(ts, datetime):
+        return ts if ts.tzinfo else ts.replace(tzinfo=timezone.utc)
+    s = str(ts)
+    try:
+        if s.endswith("Z"):
+            return datetime.fromisoformat(s.replace("Z", "+00:00"))
+        if " " in s and "T" not in s:
+            return datetime.strptime(s, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+        dt = datetime.fromisoformat(s)
+        return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+    except Exception:
+        dt = datetime.strptime(s[:19], "%Y-%m-%dT%H:%M:%S")
+        return dt.replace(tzinfo=timezone.utc)
+
+def normalize_value(val) -> dict:
+    if isinstance(val, dict):
+        return val
+    if isinstance(val, bytes):
+        val = val.decode("utf-8")
+    if isinstance(val, str):
+        return json.loads(val)
+    return json.loads(str(val))
+
+
+# ================== STREAM STATE ==================
+HIST = deque(maxlen=get_history_size())    # (datetime, sentiment)
+ROLL = deque(maxlen=get_roll_window())     # last N sentiments
+ROLL_AVG = deque(maxlen=get_history_size())
+PLOT_FPS = get_plot_fps()
+_last_draw = 0.0
+
+
+# ================== FIGURE SETUP ==================
+fig, ax = plt.subplots()
+plt.ion()
+plt.show(block=False)
+
+line_sent, = ax.plot([], [], label="Sentiment")
+line_avg,  = ax.plot([], [], label=f"Rolling avg ({ROLL.maxlen})")
+
+# nicer datetime axis
+locator = mdates.AutoDateLocator()
+formatter = mdates.ConciseDateFormatter(locator)
+ax.xaxis.set_major_locator(locator)
+ax.xaxis.set_major_formatter(formatter)
+
+# title includes your name
+ax.set_title("Live Rolling Sentiment by Albert Kabore")
+ax.set_xlabel("Time")
+ax.set_ylabel("Sentiment (0..1)")
+ax.grid(True, alpha=0.25)
+ax.legend()
+try:
+    # nicer window title if supported
+    fig.canvas.manager.set_window_title("P4 – Rolling Sentiment (Albert Kabore)")
+except Exception:
+    pass
+plt.tight_layout()
+
+
+def _should_redraw() -> bool:
+    global _last_draw
+    now = time.perf_counter()
+    min_interval = 1.0 / max(PLOT_FPS, 1e-6)
+    if now - _last_draw >= min_interval:
+        _last_draw = now
+        return True
+    return False
+
+
+def update_chart():
+    """Efficient redraw without clearing axes; rate-limited by FPS."""
+    if not _should_redraw():
+        return
+    if not HIST:
+        return
+
+    xs = [t for (t, _) in HIST]
+    ys = [v for (_, v) in HIST]
+    ra = list(ROLL_AVG)
+
+    line_sent.set_data(xs, ys)
+    line_avg.set_data(xs, ra)
+
+    ax.relim()
+    ax.autoscale_view(scalex=True, scaley=True)
+
+    # ensure GUI stays responsive
+    fig.canvas.draw_idle()
+    fig.canvas.flush_events()
+    plt.pause(0.001)
+
+
+def process_one(obj: dict):
+    """Extract timestamp and sentiment, update state & plot."""
+    try:
+        ts = obj.get("timestamp")
+        s = obj.get("sentiment")
+        if ts is None or s is None:
+            logger.debug(f"Skipping message missing timestamp/sentiment: {obj}")
             return
 
-        # Append the temperature reading to the rolling window
-        rolling_window.append(temperature)
+        t = parse_ts(ts)
+        v = float(s)
 
-        # Append the timestamp and temperature to the chart data
-        timestamps.append(timestamp)
-        temperatures.append(temperature)
+        HIST.append((t, v))
+        ROLL.append(v)
+        ROLL_AVG.append(sum(ROLL) / len(ROLL))
 
-        # Update chart after processing this message
-        update_chart(rolling_window=rolling_window, window_size=window_size)
-
-        # Check for a stall
-        if detect_stall(rolling_window, window_size):
-            logger.info(
-                f"STALL DETECTED at {timestamp}: Temp stable at {temperature}°F over last {window_size} readings."
-            )
-
-    except json.JSONDecodeError as e:
-        logger.error(f"JSON decoding error for message '{message}': {e}")
+        update_chart()
     except Exception as e:
-        logger.error(f"Error processing message '{message}': {e}")
+        logger.error(f"Error processing message: {e}")
 
 
-#####################################
-# Define main function for this module
-#####################################
+# ================== LOOPS ==================
+def kafka_loop():
+    topic = get_topic()
+    group = get_group_id()
+    logger.info(f"[KAFKA] Topic='{topic}' | Group='{group}' | RollWindow={ROLL.maxlen} | FPS={PLOT_FPS}")
 
+    # draw an empty frame so the window appears immediately
+    update_chart()
 
-def main() -> None:
-    """
-    Main entry point for the consumer.
-
-    - Reads the Kafka topic name and consumer group ID from environment variables.
-    - Creates a Kafka consumer using the `create_kafka_consumer` utility.
-    - Polls messages and updates a live chart.
-    """
-    logger.info("START consumer.")
-
-    # Clear previous run's data
-    timestamps.clear()
-    temperatures.clear()
-
-    # fetch .env content
-    topic = get_kafka_topic()
-    group_id = get_kafka_consumer_group_id()
-    window_size = get_rolling_window_size()
-    logger.info(f"Consumer: Topic '{topic}' and group '{group_id}'...")
-    logger.info(f"Rolling window size: {window_size}")
-    rolling_window = deque(maxlen=window_size)
-
-    # Create the Kafka consumer using the helpful utility function.
-    consumer = create_kafka_consumer(topic, group_id)
-
-    # Poll and process messages
-    logger.info(f"Polling messages from topic '{topic}'...")
     try:
-        for message in consumer:
-            message_str = message.value
-            logger.debug(f"Received message at offset {message.offset}: {message_str}")
-            process_message(message_str, rolling_window, window_size)
-    except KeyboardInterrupt:
-        logger.warning("Consumer interrupted by user.")
+        consumer = create_kafka_consumer(topic, group)
     except Exception as e:
-        logger.error(f"Error while consuming messages: {e}")
+        logger.error(f"Failed to create Kafka consumer: {e}")
+        logger.error("Is Kafka running? Is KAFKA_SERVER correct in .env?")
+        return
+
+    try:
+        for record in consumer:
+            obj = normalize_value(record.value)
+            process_one(obj)
+    except KeyboardInterrupt:
+        logger.warning("Kafka consumer interrupted by user.")
+    except Exception as e:
+        logger.error(f"Kafka loop error: {e}")
     finally:
-        consumer.close()
-        logger.info(f"Kafka consumer for topic '{topic}' closed.")
+        try:
+            consumer.close()
+        except Exception:
+            pass
+        logger.info("Kafka consumer closed.")
 
 
-#####################################
-# Conditional Execution
-#####################################
+def file_loop():
+    path = get_data_file()
+    logger.info(f"[FILE] Tailing '{path}' | RollWindow={ROLL.maxlen} | FPS={PLOT_FPS}")
 
-# Ensures this script runs only when executed directly (not when imported as a module).
+    update_chart()
+
+    try:
+        with path.open("r", encoding="utf-8") as f:
+            f.seek(0, os.SEEK_END)
+            while True:
+                line = f.readline()
+                if not line:
+                    time.sleep(0.05)
+                    update_chart()
+                    continue
+                try:
+                    obj = json.loads(line)
+                    process_one(obj)
+                except Exception as e:
+                    logger.error(f"Bad line skipped: {e}")
+    except FileNotFoundError:
+        logger.error(f"File not found: {path}. Start the producer first?")
+    except KeyboardInterrupt:
+        logger.warning("File tail interrupted by user.")
+
+
+# ================== MAIN ==================
+def main():
+    # reset deques with current env sizes each run
+    global HIST, ROLL, ROLL_AVG, PLOT_FPS, _last_draw
+    HIST = deque(maxlen=get_history_size())
+    ROLL = deque(maxlen=get_roll_window())
+    ROLL_AVG = deque(maxlen=get_history_size())
+    PLOT_FPS = get_plot_fps()
+    _last_draw = 0.0
+
+    mode = get_ingest_mode()
+    logger.info(f"START consumer | Mode={mode} | Backend={matplotlib.get_backend()} | Python={sys.version.split()[0]} | OS={platform.system()}")
+
+    if mode == "file":
+        file_loop()
+    else:
+        kafka_loop()
+
+
 if __name__ == "__main__":
     main()
-    plt.ioff()  # Turn off interactive mode after completion
+    plt.ioff()
     plt.show()
